@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "CeraRound-Regular";
+    src: url("../assets/fonts/CeraRoundPro-Regular.otf");
+}
+
+@font-face {
+    font-family: "CeraRound-Light";
+    src: url("../assets/fonts/CeraRoundPro-Light.otf");
+}
+
+@font-face {
+    font-family: "CeraRound-Medium";
+    src: url("../assets/fonts/CeraRoundPro-Medium.otf");
+}
