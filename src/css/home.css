@@ -1,3 +1,171 @@
-h1{
-     font-size: 70px;
+.hero-section{
+       width: 100%;
+       height: 90vh;
+       background: linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.5), rgba(0,0,0,0.1), transparent), url("../assets/landing1.jpg") no-repeat;
+       background-size: cover;
+       background-position: center;;
+}
+
+.hero-section-content{
+     height: 90vh;
+     display: flex;
+     align-items: center;
+}
+.hero-texts {
+     width: 900px;
+     color: white;
+}
+.hero-texts h1{
+     font-size: 80px;
+     font-family: var(--font-bold);
+}
+.hero-texts h1 span{
+     color: rgba(255, 237, 237, 0.8);
+}
+.hero-texts p{
+       width: 80%;
+       font-size: 20px;
+       line-height: 32px;
+       margin: 10px 0;;
+}
+
+.hero-texts a{
+     display: inline-flex;
+     color: white;
+     font-size: 20px;
+     font-family: var(--font-medium);
+     position: relative;
+     padding-bottom: 15px;
+     align-items: center;
+     margin-top: 20px
+}
+.hero-texts a span{
+      display: flex;
+      transform: translate(-50%, 2px);
+      -webkit-transform: translate(-50%, 2px);
+      -moz-transform: translate(-50%, 2px);
+      -ms-transform: translate(-50%, 2px);
+      -o-transform: translate(-50%, 2px);
+      transition: all 0.8s ease;
+      opacity: 0;
+      -webkit-transition: all 0.8s ease;
+      -moz-transition: all 0.8s ease;
+      -ms-transition: all 0.8s ease;
+      -o-transition: all 0.8s ease;
+}
+.hero-texts a:hover{
+       color: var(--main-color);
+}
+.hero-texts a:hover span{
+        transform: translate(5px, 2px);
+        -webkit-transform: translate(5px, 2px);
+        -moz-transform: translate(5px, 2px);
+        -ms-transform: translate(5px, 2px);
+        -o-transform: translate(5px, 2px);
+        opacity: 1;
+}
+.hero-texts a::after{
+       content: "";
+       width: 60px;
+       margin: auto;
+       height: 2px;
+       background: var(--main-color);
+       position: absolute;
+       bottom: 0;
+       left: 50%;
+       transform: translateX(-65%);
+       -webkit-transform: translateX(-65%);
+       -moz-transform: translateX(-65%);
+       -ms-transform: translateX(-65%);
+       -o-transform: translateX(-65%);
+       transition: all 0.8s ease;
+       -webkit-transition: all 0.8s ease;
+       -moz-transition: all 0.8s ease;
+       -ms-transition: all 0.8s ease;
+       -o-transition: all 0.8s ease;
+}
+
+.hero-texts a:hover::after{
+         width: 100%;
+         transform: translateX(-50%);
+         -webkit-transform: translateX(-50%);
+         -moz-transform: translateX(-50%);
+         -ms-transform: translateX(-50%);
+         -o-transform: translateX(-50%);
+}
+
+
+/* About section styles */
+.about-section{
+      padding: 100px 0;
+}
+.partners-content{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     gap: 30px;
+}
+.partners-content h3{
+     font-size: 25px;
+     line-height: 35px;
+     font-family: var(--font-bold);
+     font-weight: 600;
+}
+.partners-logos img{
+       width: 180px;
+       object-fit: contain;
+}
+
+.partners-logos{
+      display: flex;
+      align-items: center;
+      gap: 30px;;
+}
+
+.about-section-content{
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+       gap: 70px;
+       margin-top: 80px;
+}
+.about-section-description h3{
+       color: var(--main-color);
+}
+.about-section-description h1{
+       font-size: 55px;
+       font-family: var(--font-bold);
+       margin: 10px 0;
+       line-height: 75px;
+}
+.about-section-description p{
+       font-size: 19px;
+       line-height: 32px;
+       margin-bottom: 10px;
+}
+
+/* Categories Styles */
+.categories-section{
+        padding-bottom: 100px;
+        padding-top: 50px;
+}
+
+.categories-intro-content{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+}
+.categories-intro-content h2{
+        font-size: 30px;
+        font-family: var(--font-bold);
+}
+.categories-intro-content p{
+       width: 600px;
+       font-size: 20px;
+       line-height: 32px;
+}
+
+.categories-row{
+       display: grid;
+       margin-top: 50px;
+       grid-template-columns: repeat(4,1fr);
 }

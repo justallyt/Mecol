@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@500;600;700;800&display=swap');
 
 *{
       margin: 0;
@@ -8,6 +8,7 @@
 
 :root{
       --main-color: #ff0000;
+      --dark-color: rgb(18, 2, 2);
       --font-regular: "CeraRound-Regular", sans-serif;
       --font-light: 'CeraRound-Light', sans-serif;
       --font-medium: 'CeraRound-Medium', sans-serif;
@@ -32,9 +33,311 @@ img{
      height: 100%;
      object-fit: cover;
 }
-
+::-webkit-scrollbar {
+      width: 6px;
+} 
+::-webkit-scrollbar-track {
+      background: transparent; 
+}
+::-webkit-scrollbar-thumb {
+    background:var(--main-color); 
+    border-radius:10px;
+}
 /* Utilities */
 .inner-row{
      width: 1280px;
      margin: auto;
+}
+.btn{
+      display: inline-flex;
+      color: var(--dark-color);
+      font-size: 20px;
+      font-family: var(--font-medium);
+      position: relative;
+      padding-bottom: 15px;
+      align-items: center;
+      margin-top: 20px
+}
+.btn span{
+      display: flex;
+      transform: translate(-50%, 2px);
+      -webkit-transform: translate(-50%, 2px);
+      -moz-transform: translate(-50%, 2px);
+      -ms-transform: translate(-50%, 2px);
+      -o-transform: translate(-50%, 2px);
+      transition: all 0.8s ease;
+      opacity: 0;
+      -webkit-transition: all 0.8s ease;
+      -moz-transition: all 0.8s ease;
+      -ms-transition: all 0.8s ease;
+      -o-transition: all 0.8s ease; 
+}
+.btn:hover{
+       color: var(--main-color);
+}
+.btn:hover span{
+      transform: translate(5px, 2px);
+      -webkit-transform: translate(5px, 2px);
+      -moz-transform: translate(5px, 2px);
+      -ms-transform: translate(5px, 2px);
+      -o-transform: translate(5px, 2px);
+      opacity: 1;
+}
+.btn::after{
+      content: "";
+      width: 60px;
+      margin: auto;
+      height: 2px;
+      background: var(--main-color);
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-65%);
+      -webkit-transform: translateX(-65%);
+      -moz-transform: translateX(-65%);
+      -ms-transform: translateX(-65%);
+      -o-transform: translateX(-65%);
+      transition: all 0.8s ease;
+      -webkit-transition: all 0.8s ease;
+      -moz-transition: all 0.8s ease;
+      -ms-transition: all 0.8s ease;
+      -o-transition: all 0.8s ease;
+}
+.btn:hover::after{
+      width: 100%;
+      transform: translateX(-50%);
+      -webkit-transform: translateX(-50%);
+      -moz-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      -o-transform: translateX(-50%);
+}
+
+.btn-v2{
+      width: 180px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: var(--main-color);
+      height: 45px;
+      color:white;
+      font-size: 16px;
+      font-family: var(--font-medium);
+}
+.btn-v2 span{
+       display: flex;
+       margin-top: 3px;
+       transition: all 0.8s ease;
+       -webkit-transition: all 0.8s ease;
+       -moz-transition: all 0.8s ease;
+       -ms-transition: all 0.8s ease;
+       -o-transition: all 0.8s ease;
+}
+.btn-v2:hover span{
+        transform: translate(5px, -5px);
+        -webkit-transform: translate(5px, -5px);
+        -moz-transform: translate(5px, -5px);
+        -ms-transform: translate(5px, -5px);
+        -o-transform: translate(5px, -5px);
+}
+/* Header Styles */
+header{
+      width: 100%;
+      height: 90px;
+      background: white;
+      box-shadow: 0px 3px 2px -3px gainsboro;
+}
+.header-content{
+       height: 90px;
+       display: flex;
+       position: relative;
+       align-items: center;
+       justify-content: space-between;
+       gap: 20px;
+}
+.header-content .logo{
+      width: 180px;
+      height: 90px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+}
+.header-content .logo img{
+       object-fit: contain;
+       height: max-content;
+}
+.header-content .logo span{
+       font-size: 12px;
+       text-transform: uppercase;
+       margin-top: -5px;
+       color: var(--dark-color);
+       font-family: var(--font-medium);
+
+}
+.header-content nav ul,
+.header-content .header-actions{
+     display: flex;
+     gap: 30px;;
+}
+
+.header-content nav ul li a{
+      font-family: var(--font-regular);
+      color: var(--dark-color);
+      position: relative;
+      line-height: 90px;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+}
+.header-content nav ul li a span{
+        display: flex;
+        margin-top: 2px;
+}
+.header-content nav ul li a:hover,
+.header-content nav ul li a.active{
+        color: var(--main-color);
+}
+.header-content nav ul li a::after{
+       width: 100%;
+       content: "";
+       height: 2px;
+       background: var(--main-color);
+       position: absolute;
+       left: 0;
+       border-radius: 20%;
+       bottom: 0;
+       opacity: 0;
+       transition: all 0.7s ease;
+       -webkit-transition: all 0.7s ease;
+       -moz-transition: all 0.7s ease;
+       -ms-transition: all 0.7s ease;
+       -o-transition: all 0.7s ease;
+       -webkit-border-radius: 20%;
+       -moz-border-radius: 20%;
+       -ms-border-radius: 20%;
+       -o-border-radius: 20%;
+}
+.header-content nav ul li a:hover::after,
+.header-content nav ul li a.active::after{
+      opacity: 1;
+}
+.header-box{
+       display: flex;
+       align-items: center;
+}
+.header-box h3{
+      font-family: var(--font-light);
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      font-size: 18px;
+}
+.header-box span{
+     display: flex;
+     transform: rotate(10deg);
+     -webkit-transform: rotate(10deg);
+     -moz-transform: rotate(10deg);
+     -ms-transform: rotate(10deg);
+     -o-transform: rotate(10deg);
+}
+.header-box a{
+       width: 180px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       background: var(--main-color);
+       height: 45px;
+       color:white;
+       font-size: 16px;
+       font-family: var(--font-medium);
+}
+
+.dropdown{
+        width: 80%;
+        position: absolute;
+        right: 0;
+        padding: 50px;
+        background: white;
+        transform-origin: top;
+        transform: scaleY(0);
+        -webkit-transform: scaleY(0);
+        -moz-transform: scaleY(0);
+        -ms-transform: scaleY(0);
+        -o-transform: scaleY(0);
+        transition: all 0.8s ease;
+        -webkit-transition: all 0.8s ease;
+        -moz-transition: all 0.8s ease;
+        -ms-transition: all 0.8s ease;
+        -o-transition: all 0.8s ease;
+        box-shadow: 0px 0px 3px -2px rgb(116, 116, 116);
+}
+.dropdown.active{
+        transform: scaleY(1);
+        -webkit-transform: scaleY(1);
+        -moz-transform: scaleY(1);
+        -ms-transform: scaleY(1);
+        -o-transform: scaleY(1);
+}
+
+.dropdown-inner{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 30px;
+}
+
+
+.dropdown-column h2{
+      font-family: var(--font-bold);
+      font-weight: 500;
+      font-size: 20px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid gainsboro;
+      margin-bottom: 10px;
+}
+
+.dropdown-column ul{
+      flex-direction: column;
+      gap: 10px !important;
+}
+.dropdown-column ul li a{
+        line-height: 40px !important;
+        gap: 2px !important;
+}
+.dropdown-column ul li a:hover span{
+        transform: translateX(5px);
+        -webkit-transform: translateX(5px);
+        -moz-transform: translateX(5px);
+        -ms-transform: translateX(5px);
+        -o-transform: translateX(5px);
+        opacity: 1;
+}
+.dropdown-column ul li a span{
+      margin-top: 3px !important;
+      transform: translateX(-5px);
+      opacity: 0;
+      transition: all 0.7s ease;
+      -webkit-transition: all 0.7s ease;
+      -moz-transition: all 0.7s ease;
+      -ms-transition: all 0.7s ease;
+      -o-transition: all 0.7s ease;
+      -webkit-transform: translateX(-5px);
+      -moz-transform: translateX(-5px);
+      -ms-transform: translateX(-5px);
+      -o-transform: translateX(-5px);
+}
+
+
+
+
+
+
+
+
+
+
+/* Responsivity */
+@media(max-width: 1290px){
+        .inner-row{
+             width: 90%;
+        }
 }

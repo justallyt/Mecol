@@ -1,9 +1,15 @@
 import "../css/home.css"
-
+import Navbar from "../components/common/navigation/Navbar"
+import HeroSection from "../components/home/HeroSection"
+import AboutSection from "../components/home/AboutSection"
+import Categories from "../components/home/Categories"
 const Home = () => {
   return (
     <>
-           <h1>Home</h1>
+          <Navbar />
+          <HeroSection />
+          <AboutSection />
+           <Categories />
     </>
   )
 }
