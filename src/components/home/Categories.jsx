@@ -17,11 +17,17 @@ const Categories = () => {
                 <div className="categories-row">
                           { categories.map(item => 
                                  <div className="category-box" key={item.id}>
+                                         <div className="overlay">
+                                                   <div className="overlay-inner">
+                                                          <img src={item.icon} alt="" />
+                                                           <h3> {item.title}</h3>                             
+                                                   </div>
+                                         </div>
                                         <img src={item.image} alt="" />
                                          <div className="category-box-texts">
                                                      <h2>{item.title}</h2>
                                                      <p>{item.description}</p>
-                                                     <Link to={'/'}>Explore</Link>
+                                                     <Link to={'/'}>Explore<span><GoArrowUpRight /></span></Link>
                                           </div>
                             </div>
                             )}

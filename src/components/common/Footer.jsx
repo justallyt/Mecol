@@ -1,7 +1,14 @@
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <footer>
+              <div className="inner-row">
+                           <div className="footer-content">
+                                        <div className="double-column"></div>
+                                        <div className="double-column"></div>
+                           </div>
+              </div>
+    </footer>
   )
 }
 
