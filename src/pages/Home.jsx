@@ -7,6 +7,7 @@ import Choose from "../components/home/Choose"
 import GallerySection from "../components/home/GallerySection"
 import Nudge from "../components/common/Nudge"
 import Footer from "../components/common/Footer"
+
 const Home = () => {
   return (
     <>

@@ -103,13 +103,15 @@
      display: flex;
      align-items: center;
      justify-content: space-between;
-     gap: 30px;
+     gap: 10px;
 }
 .partners-content h3{
      font-size: 25px;
      line-height: 35px;
      font-family: var(--font-bold);
      font-weight: 600;
+     width: 250px;
+     flex-shrink: 0;
 }
 .partners-logos img{
        width: 180px;
@@ -119,7 +121,9 @@
 .partners-logos{
       display: flex;
       align-items: center;
-      gap: 30px;;
+      gap: 30px;
+      flex-wrap: wrap;
+      justify-content: center;
 }
 
 .about-section-content{
@@ -461,4 +465,172 @@
 .nudge-section-content .btn-v2{
        margin:20px auto;
        width: 200px
+}
+
+/* Responsivity */
+@media(max-width: 1090px){
+        .hero-section{
+              background: linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.5), rgba(0,0,0,0.4), transparent), url("../assets/landing1.jpg") no-repeat;
+              background-size: cover;
+               background-position: center;;
+        }
+       .hero-texts{
+               width: 100%;
+       }
+       .hero-texts h1{
+               font-size: 70px;
+       }
+       .partners-content{
+              flex-direction: column;
+       }
+       .partners-content h3{
+              width: 100%;
+              text-align: center;
+       }
+       .about-section-content{
+               grid-template-columns: 1fr;
+               gap: 30px;
+       }
+       .about-section-description{
+               order: 1;
+       }
+       .about-section-image{
+               order: 2;
+       }
+       .categories-intro-content{
+               flex-direction: column;
+               gap: 10px;
+               text-align: center;
+       }
+
+       .choose-intro{
+              grid-template-columns: 1fr;
+              text-align: center;
+              gap: 10px;
+       }
+
+       .choose-row{
+                grid-template-columns: repeat(3,1fr);
+       }
+
+       .quality-row-column{
+               width: 90%;
+       }
+       .quality-row-column h2,
+       .quality-description{
+               padding-top: 50px;
+       }
+
+       .gallery-intro-content{
+              flex-direction: column;
+       }
+       .gallery-intro-content h1{
+               width: 90%;
+               text-align: center;
+       }
+       .gallery-body{
+               gap: 20px;
+       }
+}
+@media(max-width: 768px){
+       .hero-section{
+              height: 700px;
+       }
+       .hero-texts h1,
+       .nudge-section-content h1{
+              font-size: 55px;
+       }
+       .nudge-section-content{
+            padding: 80px 30px;
+       }
+       .hero-texts p,
+       .nudge-section-content p{
+               width: 100%;
+               font-size: 18px;
+               line-height: 28px;
+       }
+       .about-section-description h1,
+       .choose-intro h1,
+       .quality-row-column h2{
+              font-size: 45px;
+              line-height: 65px;
+       }
+       .categories-row,
+       .choose-row{
+              grid-template-columns: 1fr 1fr
+       }
+       .categories-intro-content p{
+               width: 100%;
+       }
+       .category-box{
+              height: 500px;
+       }
+       .category-box:nth-child(1) .overlay,
+       .category-box:nth-child(2) .overlay{
+              border-bottom:1px solid rgba(220,220,220,0.703);
+       }
+       .quality-row{
+              margin-top: 60px;
+       }
+       .quality-row-column{
+               grid-template-columns: 1fr;
+               gap: 20px;;
+       }
+       .quality-description{
+              height: 300px;
+       }
+       .quality-row-images{
+              margin-top: -80px;
+       }
+       .image-ndogo img{
+               height: 150px;
+       }
+}
+@media(max-width: 450px){
+       .hero-texts,
+       .about-section-description{
+              text-align: center
+       };
+       .hero-texts a{
+              margin-left: 20px
+       }
+       .hero-texts h1,
+       .quality-row-column h2,
+       .gallery-intro-content h1,
+       .nudge-section-content h1{
+              font-size: 45px;
+              text-align: center;
+       }
+       .categories-row{
+              grid-template-columns: 1fr;
+       }
+       .category-box{
+              height: 450px;
+       }
+       .choose-row{
+               grid-template-columns: 1fr;
+               gap: 20px;
+       }
+       .quality-description{
+                 padding: 30px;
+       }
+       .quality-description p{
+              font-size: 17px;
+              line-height: 25px;
+       }
+       .quality-row-images{
+               grid-template-columns: 1fr;
+       }
+       .image-ndogo{
+              display: none;
+       }
+       .gallery-body{
+              grid-template-columns: 1fr;
+       }
+       .gallery-item h4{
+              font-size: 18px;
+       }
+       .nudge-section-content{
+              padding: 60px 10px;
+       }
 }

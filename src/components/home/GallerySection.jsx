@@ -9,7 +9,7 @@ const GallerySection = () => {
                      <div className="gallery-intro">
                                 <div className="gallery-intro-content">
                                         <h1>View Some of The Success We&apos;ve had over the Years</h1>
-                                        <Link to={'/'} className="btn-v2">View Gallery<span><GoArrowUpRight /></span></Link>
+                                        <Link to={'/'} className="btn-v2">Portfolio<span><GoArrowUpRight /></span></Link>
                                  </div>
                         </div>
                            <div className="gallery-body">
