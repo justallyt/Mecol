@@ -27,7 +27,7 @@ const Header = () => {
                                                          <li onMouseOver={() => setDropdown(true)} onMouseOut={() => setDropdown(false)}><NavLink to={'/products'}>Products <span><LuChevronDown /></span></NavLink>
                                                                     <Dropdown status={dropdown} />
                                                          </li>
-                                                         <li><NavLink to={'/contact-us'}>Contact Us</NavLink></li>
+                                                         <li><NavLink to={'/contact'}>Contact Us</NavLink></li>
                                               </ul>
                                     </nav>
 

@@ -1,0 +1,77 @@
+.about-hero-section{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url("../assets/aboutbg.jpg") no-repeat;
+    background-size: cover;
+    background-position: top;
+    padding: 100px 0;;
+}
+.about-hero-texts{
+   width: 1100px;
+   margin: 30px auto;
+   text-align: center;
+   color: whitesmoke;
+}
+.about-hero-texts h3{
+color: var(--main-color);
+font-size: 25px;
+font-family: var(--font-bold);
+font-weight: 500;
+}
+.about-hero-texts h1{
+font-size: 75px;
+font-family: var(--font-bold);
+font-weight: 600;
+}
+.about-hero-texts p{
+ width: 80%;
+ margin: 20px auto;
+ font-size: 20px;
+ line-height: 32px;
+}
+
+
+.about-body-section{
+       padding: 100px 0;
+}
+
+.about-body-content{
+       display: grid;
+       grid-template-columns: repeat(2,1fr);
+       gap: 50px;
+}
+
+.about-body-header h2{
+       font-size: 55px;
+       font-family: var(--font-bold);
+       font-weight: 600;
+       margin-bottom: 20px;
+}
+.video-box video{
+      width: 100%;
+      height: 450px;
+}
+.about-body-description p{
+        margin-bottom: 20px;
+        font-size: 20px;
+        line-height: 32px;
+}
+
+
+
+
+@media(max-width: 1150px){
+       .about-hero-texts{
+            width: 100%;
+       }
+}
+
+@media(max-width: 1090px){
+       .about-body-content{
+             grid-template-columns: 1fr;
+       }
+}
+
+@media(max-width: 768px){
+       .about-hero-texts h1{
+             font-size: 55px;
+       }
+}
