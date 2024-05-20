@@ -585,8 +585,9 @@ footer{
 
 /* Responsivity */
 @media(max-width: 1290px){
-        .inner-row{
-             width: 90%;
+        .inner-row,
+        .slide-moja-inner{
+             width: 90% !important;
         }
 }
 

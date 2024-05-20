@@ -27,7 +27,7 @@ const Categories = () => {
                                          <div className="category-box-texts">
                                                      <h2>{item.title}</h2>
                                                      <p>{item.description}</p>
-                                                     <Link to={'/'}>Explore<span><GoArrowUpRight /></span></Link>
+                                                     <Link to={item.link}>Explore<span><GoArrowUpRight /></span></Link>
                                           </div>
                             </div>
                             )}
