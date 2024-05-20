@@ -1,4 +1,4 @@
-import { Link, NavLink } from "react-router-dom"
+import { Link, NavLink, useLocation } from "react-router-dom"
 import { IoMdCall } from "react-icons/io";
 import logo from "../../../assets/logo.png"
 import { LuChevronDown } from "react-icons/lu";
@@ -9,6 +9,7 @@ import { sidebarContext } from "./navcontext";
 const Header = () => {
   const [ dropdown, setDropdown] = useState(false);
   const [sidebarStatus, setSidebarStatus] = useContext(sidebarContext);
+  const { pathname } = useLocation();
 
   const openSidebar = () => setSidebarStatus(true);
   return (
@@ -24,7 +25,7 @@ const Header = () => {
                                               <ul>
                                                          <li><NavLink to={'/'}>Home</NavLink></li>
                                                          <li><NavLink to={'/about-us'}>About Us</NavLink></li>
-                                                         <li onMouseOver={() => setDropdown(true)} onMouseOut={() => setDropdown(false)}><NavLink to={'/products'}>Products <span><LuChevronDown /></span></NavLink>
+                                                         <li onMouseOver={() => setDropdown(true)} onMouseOut={() => setDropdown(false)}><NavLink to={'/products'} className={pathname.slice(1,8) == "product" ? "active": ''}>Products <span><LuChevronDown /></span></NavLink>
                                                                     <Dropdown status={dropdown} />
                                                          </li>
                                                          <li><NavLink to={'/contact'}>Contact Us</NavLink></li>

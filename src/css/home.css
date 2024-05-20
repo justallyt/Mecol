@@ -188,9 +188,9 @@
        display: flex;
        align-items: center;
        gap: 30px;
-       animation: scrollslide 50s linear infinite;
-       -webkit-animation: scrollslide 50s linear infinite;
-       width: max-content;;
+       animation: scrollslide 80s linear infinite;
+       -webkit-animation: scrollslide 80s linear infinite;
+       width: max-content;
 }
  .partners-logos img{
        width: 160px;

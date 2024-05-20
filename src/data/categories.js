@@ -557,13 +557,349 @@ export const categories = [
                                    id: 4,
                                    image: "/products/office/table5.png",
                                    description: "2 Way workstation closed with a shelf & Divider"
-                               }
+                               },
+                               {
+                                  id: 5,
+                                  image: "/products/office/table6.png",
+                                  description: "Conference Table Set"
+                               },
+                               {
+                                   id: 6,
+                                   image: "/products/office/table7.png",
+                                   description: "Oval Conference Table Set"
+                               },
+                            {
+                                id: 7,
+                                image: '/products/office/table8.png',
+                                description: ''
+                            },
+                            {
+                                id: 8,
+                                image: "/products/office/table9.png",
+                                description: ''
+                            },
+                            {
+                                id: 9,
+                                image: "/products/office/table10.png",
+                                description: ""
+                            },
+                            {
+                                 id: 10,
+                                 image: "/products/office/table11.png",
+                                 description: "Round Coffee Table"
+                            },
+                            {
+                                id: 11,
+                                image: "/products/office/table12.png",
+                                description: "Coffee Table"
+                            },
+                            {
+                                id: 12,
+                                image: '/products/office/table13.png',
+                                description: "Coffee Table with A Shelf"
+                            },
+                            {
+                                id: 13,
+                                image: "/products/office/table14.png",
+                                description: "Conference Table 3-Prong"
+                            },
+                            {
+                                id: 14,
+                                image: "/products/office/table15.png",
+                                description: "Work Table"
+                            },
+                            {
+                                id: 15,
+                                image: '/products/office/table16.png',
+                                description: "Work Table"
+                            },
+                            {
+                                id: 16,
+                                image: '/products/office/table17.png',
+                                description: "Round Folding Table"
+                            },
+                            {
+                                id: 17,
+                                image: "/products/office/table18.png",
+                                description: "Folding Table"
+                            },
+                            {
+                                id: 18,
+                                image: "/products/office/table19.png",
+                                description: "Folding Table H-Type"
+                            },
+                            {
+                                id: 19,
+                                image: "/products/office/table20.png",
+                                description: "Work Table Square"
+                            },
+                            {
+                                id: 20,
+                                image: "/products/office/table21.png",
+                                description: "Work Table Sharp Corners"
+                            },
+                            {
+                                  id: 21, 
+                                  image: "/products/office/table22.png",
+                                  description: "Round Table"
+                            }
+                     ]
+                 },
+                 {
+                      id: 2,
+                      name: "3. Reception Counters",
+                      note: "",
+                      products: [
+                             {
+                                 id: 0,
+                                 image: "/products/office/counter1.png",
+                                 description: "Reception Counter 1"
+                             },
+                             {
+                                id: 1,
+                                image: "/products/office/counter2.png",
+                                description: "Reception Counter 2"
+                             },
+                             {
+                                id: 2,
+                                image: '/products/office/counter3.png',
+                                description: "Reception Counter 3"
+                             },
+                             {
+                                id: 3,
+                                image: "/products/office/counter4.png",
+                                description: ""
+                             },
+                             {
+                                id: 4,
+                                image: "/products/office/counter5.png",
+                                description: ''
+                             },
+                             {
+                                id: 5,
+                                image: "/products/office/counter6.png",
+                                description: ""
+                             }
+                      ]
+                 },
+                 {
+                     id: 3,
+                     name: "4. Office Chairs",
+                     note: "",
+                     products: [
+                          {
+                              id: 0,
+                              image: "/products/office/chair1.png",
+                              description: "Standard Conference Chair"
+                          },
+                          {
+                            id: 1,
+                            image: "/products/office/chair2.png",
+                            description: "Conference Chair"
+                          },
+                          {
+                            id: 2,
+                            image: "/products/office/chair3.png",
+                            description: "Office/Conference Chair"
+                          },
+                          {
+                            id: 3,
+                            image: "/products/office/chair4.png",
+                            description: "Standard Plastic Chair - Stackable"
+                          },
+                          {
+                            id: 4,
+                            image: "/products/office/chair5.png",
+                            description: "Mata Plastic Chair - Stackable"
+                          },
+                          {
+                            id: 5,
+                            image: "/products/office/chair6.png",
+                            description: "Office Chair"
+                          },
+                          {
+                            id: 6,
+                            image: "/products/office/chair7.png",
+                            description: "Visitor's Chair - Stacking"
+                          },
+                          {
+                            id: 7,
+                            image: "/products/office/chair8.png",
+                            description: "Office Arm Chair"
+                          },
+                          {
+                            id: 8,
+                            image: "/products/office/chair9.png",
+                            description: "Office Chair - Wide"
+                          },
+                          {
+                            id: 9,
+                            image: '/products/office/chair10.png',
+                            description: ""
+                          },
+                          {
+                            id: 10,
+                            image: "/products/office/chair11.png",
+                            description: ""
+                          },
+                          {
+                            id: 11,
+                            image: "/products/office/chair12.png",
+                            description: ""
+                          },
+                          {
+                            id: 12,
+                            image: "/products/office/chair13.png",
+                            description: ""
+                          },
+                          {
+                            id: 13,
+                            image: "/products/office/chair14.png",
+                            description: ""
+                          },
+                          {
+                            id: 14,
+                            image: "/products/office/chair15.png",
+                            description: ""
+                          },
+                        {
+                            id: 15,
+                            image: "/products/office/chair16.png",
+                            description: "Operators Chair with Arms"
+                        },
+                        {
+                            id: 16,
+                            image: "/products/office/chair17.png",
+                            description: "Typist Chair"
+                        },
+                        {
+                             id: 17,
+                             image: "/products/office/chair18.png",
+                             description: "Clerical Chair"
+                        },
+                        {
+                            id: 18,
+                            image: "/products/office/chair19.png",
+                            description: "Executive High Back Mesh Chair"
+                        },
+                        {
+                            id: 19,
+                            image: "/products/office/chair20.png",
+                            description: "Medium Lightback Chair"
+                        },
+                        {
+                            id: 20,
+                            image: "/products/office/chair21.png",
+                            description: "Cantilever Chair with Arms"
+                        },
+                        {
+                            id: 21,
+                            image: "/products/office/chair22.png",
+                            description: "Operator's Chair"
+                        },
+                        {
+                            id: 22,
+                            image: "/products/office/chair23.png",
+                            description: "Executive High Back Cantilever chair"
+                        },
+                        {
+                            id: 23,
+                            image: "/products/office/chair24.png",
+                            description: "Deluxe Typist Chair"
+                        },
+                        {
+                            id: 24,
+                            image: "/products/office/chair25.png",
+                            description: "Executive High back Swivel Chair"
+                        },
+                        {
+                            id: 25,
+                            image: '/products/office/chair26.png',
+                            description: "Executive Low Back Swivel Chair"
+                        },
+                        {
+                            id: 26,
+                            image: "/products/office/chair27.png",
+                            description: "Executive High Back Swivel Chair"
+                        },
+                        {
+                            id: 27,
+                            image: '/products/office/chair28.png',
+                            description: ""
+                        },
+                        {
+                            id: 28,
+                            image: '/products/office/chair29.png',
+                            description: ""
+                        },
+                        {
+                            id: 29,
+                            image: '/products/office/chair30.png',
+                            description: ""
+                        },
+                        {
+                            id: 30,
+                            image: '/products/office/chair31.png',
+                            description: ""
+                        },
+                        {
+                            id: 31,
+                            image: '/products/office/chair32.png',
+                            description: ""
+                        },
+                        {
+                            id: 32,
+                            image: '/products/office/chair33.png',
+                            description: "Milano Sofa 1-Seater"
+                        },
+                        {
+                            id: 33,
+                            image: '/products/office/chair34.png',
+                            description: "Milano Sofa 3-Seater"
+                        },
+                        {
+                            id: 34,
+                            image: '/products/office/chair35.png',
+                            description: "Milano Sofa 2-Seater"
+                        }
+                     ]
+                 },
+                 {
+                     id: 4,
+                     name: "5. Stools",
+                     note: "",
+                     products: [
+                          {
+                                id: 0,
+                                image: "/products/office/stool1.png",
+                                description: "Draughtsman Chair"
+                          },
+                          {
+                               id: 1,
+                               image: "/products/office/stool2.png",
+                               description: "Lab Stool - Swivel"
+                          },
+                          {
+                              id: 2,
+                              image: "/products/office/stool3.png",
+                              description: "Lab Stool"
+                          },
+                          {
+                              id: 3,
+                              image: "/products/office/stool4.png",
+                              description: "Lab Stool Wooden Seat"
+                          },
+                          {
+                            id: 4,
+                            image: "/products/office/stool5.png",
+                            description: "Counter Stool"
+                          }
                      ]
                  }
          ]
      },
      {
-        id: 1,
+        id: 108,
         title: "School Furniture",
         description: 'Under this category, we have beds, desks, cabinets, trolleys and so much more',
         image: '/school-furniture.jpg',
@@ -735,12 +1071,271 @@ export const categories = [
         ]
     },
     {
-        id: 2,
-        title: "Hospital Furniture",
-        description: 'Under this category, we have beds, step stools, examination couch, stretcher, trays, drip stands and so much more',
-        image: '/hospital-furniture.jpg',
+        id: 287,
+        title: "Bank Furniture",
+        description: 'Under this category, we have cashier tills, cash boxes, cash trays, atm cabinets, queue stands and so much more',
+        image: '/banking.jpeg',
         icon: '/hospital.png',
-        link: '/product-category/hospital-furniture'
+        link: '/product-category/bank-furniture',
+        url_param: "bank-furniture",
+        subcategory: [
+                {
+                     id: 0,
+                     name: "",
+                     note: "",
+                     products: [
+                        {
+                             id: 0,
+                             image: "/products/bank/bank1.png",
+                             description: "Cash Carrying Box"
+                        },
+                        {
+                            id: 1,
+                            image: "/products/bank/bank2.png",
+                            description: 'Cash Box'
+                        },
+                        {
+                            id: 2,
+                            image: '/products/bank/bank3.png',
+                            description: "Cashier Till"
+                        },
+                        {
+                            id: 3,
+                            image: '/products/bank/bank4.png',
+                            description: "Cashier Till",
+                        },
+                        {
+                            id: 4,
+                            image: '/products/bank/bank5.png',
+                            description: "Queue Stands"
+                        }
+                     ]
+                }
+        ]
     },
+   {
+        id: 298,
+        title: "Hospital Furniture",
+        description: "Under this category, we have ",
+        image: "/hospital-furniture.jpg",
+        icon: "",
+        link: "/product-category/hospital-furniture",
+        url_param: "hospital-furniture",
+        subcategory: [
+              {
+                   id: 0,
+                   name: "",
+                   note: "",
+                   products: [
+                          {
+                               id: 0,
+                               image: "/products/hospital/hospital1.png",
+                               description: "Mobile Hospital Bed"
+                          },
+                          {
+                             id: 1,
+                             image: "/products/hospital/hospital2.png",
+                             description: "Hospital Stretcher Trolley"
+                          },
+                          {
+                            id: 2,
+                            image: '/products/hospital/hospital3.png',
+                            description: "Hospital step-stool & examination couch"
+                          },
+                          {
+                            id: 3,
+                            image: "/products/hospital/hospital4.png",
+                            description: "Bedside Locker with 2 drawer & 1 Shelf"
+                          },
+                          {
+                            id: 4,
+                            image: "/products/hospital/hospital5.png",
+                            description: "Hospital Drip Stand 4 way"
+                          },
+                          {
+                              id: 5,
+                              image: "/products/hospital/hospital6.png",
+                              description: "14 Drawer Blood Slide Cabinet"
+                          },
+                          {
+                              id: 6,
+                              image: "/products/hospital/hospital7.png",
+                              description: "7 Drawer card Filing Cabinet"
+                          },
+                          {
+                              id: 7,
+                              image: "/products/hospital/hospital8.png",
+                              description: "Single Soiled Linen Trolley"
+                          },
+                          {
+                            id: 8,
+                            image: "/products/hospital/hospital9.png",
+                            description: "Ward Dressing Trolley"
+                          },
+                          {
+                            id: 9,
+                            image: "/products/hospital/hospital10.png",
+                            description: "Clean & Soiled Linen Trolley"
+                          },
+                          {
+                            id: 10,
+                            image: "/products/hospital/hospital11.png",
+                            description: "Food Trolley with wooden trays"
+                          },
+                          {
+                            id: 11,
+                            image: "/products/hospital/hospital12.png",
+                            description: "Trolley with 4 Metal Trays"
+                          },
+                          {
+                            id: 12,
+                            image: "/products/hospital/hospital13.png",
+                            description: "Medicine Trolley"
+                          },
+                          {
+                            id: 13,
+                            image: "/products/hospital/hospital14.png",
+                            description: "Tissue Block storage Cabinets"
+                          },
+                          {
+                            id: 14,
+                            image: "/products/hospital/hospital15.png",
+                            description: "Bedside Locker"
+                          },
+                          {
+                            id: 15,
+                            image: "/products/hospital/hospital16.png",
+                            description: "4 Fold hospital Screen"
+                          },
+                          {
+                            id: 16,
+                            image: '/products/hospital/hospital17.png',
+                            description: ""
+                          }
+                   ]
+              }
+        ]
+   },
+   {
+        id: 759,
+        title: "Clothing Lockers",
+        description: "",
+        image: "/clothing.jpeg",
+        icon: "",
+        link: "/product-category/clothing-lockers",
+        url_param: "clothing-lockers",
+        subcategory: [
+                {
+                     id: 0,
+                     name: "",
+                     note: "",
+                     products: [
+                            {
+                                 id: 0,
+                                 image: "/products/clothing/clothing1.png",
+                                 description: "Single compartment Clothing locker"
+                            },
+                            {
+                                id: 1,
+                                image: "/products/clothing/clothing2.png",
+                                description: "Double compartment clothing locker"
+                            },
+                            {
+                                id: 2,
+                                image: '/products/clothing/clothing3.png',
+                                description: "3 compartment clothing locker"
+                            },
+                            {
+                                id: 3,
+                                image: "/products/clothing/clothing4.png",
+                                description: "4 compartment clothing locker"
+                            },
+                            {
+                                id: 4,
+                                image: "/products/clothing/clothing5.png",
+                                description: "5 compartment clothing locker",
 
+                            },
+                            {
+                                id: 5,
+                                image: "/products/clothing/clothing6.png",
+                                description: "Double compartment clothing locker with locks and vents"
+                            },
+                            {
+                                 id: 6,
+                                 image: "/products/clothing/clothing7.png",
+                                 description: "Single & Double locker (Bay of 2) with a Stand"
+                            },
+                            {
+                                id: 7,
+                                image: "/products/clothing/clothing8.png",
+                                description: "Bay of 3, 2 Compartment clothing locker with locks & ventilation"
+                            },
+                            {
+                                id: 8,
+                                image: "/products/clothing/clothing9.png",
+                                description: "Bay of 3, 5 Compartment clothing locker with meshed doors"
+                            },
+                            {
+                                id: 9,
+                                image: '/products/clothing/clothing10.png',
+                                description: "Bedside Locker"
+                            }
+                     ]
+                }
+        ]
+   },
+   {
+       id: 675,
+       title: "Other Furniture",
+       description: "",
+       image: "/gallery3.jpeg",
+       icon: "",
+       link: "/product-category/other-furniture",
+       url_param: "other-furniture",
+       subcategory: [
+               {
+                     id: 0,
+                     name: "",
+                     note: "",
+                     products: [
+                           {
+                                id: 0,
+                                image: "/products/other/card-index.png",
+                                description: "Card Index Cabinet"
+                           },
+                           {
+                               id: 1,
+                               image: "/products/other/drawer.png",
+                               description: "15 & 20 Drawer Visible Record Cabinets"
+                           },
+                           {
+                            id: 2,
+                            image: "/products/other/letter-rack.png",
+                            description: "5 Tier Letter Rack"
+                           },
+                           {
+                               id: 3,
+                               image: "/products/other/suggestion-box.png",
+                               description: "Suggestion Boxes Type 1"
+                           },
+                           {
+                              id: 4,
+                              image: "/products/other/suggestion-box2.png",
+                              description: "Suggestion Boxes Type 3"
+                           },
+                           {
+                              id: 5,
+                              image: '/products/other/waste.png',
+                              description: "Waste Paper Tubs"
+                           },
+                           {
+                             id: 6,
+                             image: "/products/other/hanger.png",
+                             description: "Mobile Cloth Hanger"
+                           }
+                     ]
+               }
+       ]
+   }
 ]

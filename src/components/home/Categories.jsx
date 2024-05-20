@@ -15,7 +15,7 @@ const Categories = () => {
                             </div>
                 </div>
                 <div className="categories-row">
-                          { categories.map(item => 
+                          { categories.slice(0, 6).map(item => 
                                  <div className="category-box" key={item.id}>
                                          <div className="overlay">
                                                    <div className="overlay-inner">

@@ -8,25 +8,23 @@ const MobileDropdown = ({status}) => {
               <div className="dropdown-column">
                                     <h2>General Furniture</h2>
                                     <ul>
-                                               <li><Link to={'/office-furniture'}>Office Furniture <span><LuChevronRight /></span></Link></li>
-                                               <li><Link to={'/bank-furniture'}>Bank Furniture <span><LuChevronRight /></span></Link></li>
-                                               <li><Link to={'/hotel-furniture'}>Hotel Furniture <span><LuChevronRight /></span></Link></li>
+                                               <li><Link to={'/product-category/office-furniture'}>Office Furniture <span><LuChevronRight /></span></Link></li>
+                                               <li><Link to={'/product-category/bank-furniture'}>Bank Furniture <span><LuChevronRight /></span></Link></li>
                                     </ul>
                           </div>
                           <div className="dropdown-column">
                                      <h2>Institutional Furniture</h2>
                                      <ul>
-                                               <li><Link to={'/school-furniture'}>School Furniture <span><LuChevronRight /></span></Link></li>
-                                               <li><Link to={'/hospital-furniture'}>Hospital Furniture <span><LuChevronRight /></span></Link></li>
-                                               <li><Link to={'/library-furniture'}>Library Furniture <span><LuChevronRight /></span></Link></li>
+                                               <li><Link to={'/product-category/school-furniture'}>School Furniture <span><LuChevronRight /></span></Link></li>
+                                               <li><Link to={'/product-category/hospital-furniture'}>Hospital Furniture <span><LuChevronRight /></span></Link></li>
                                     </ul>
                           </div>
                           <div className="dropdown-column">
                                       <h2>Shelving & Related Furniture</h2>
                                       <ul>
-                                               <li><Link to={'/storage-and-rackingl-furniture'}>Storage & Racking Furniture <span><LuChevronRight /></span></Link></li>
-                                               <li><Link to={'/supermarket-furniture'}>Supermarket Furniture <span><LuChevronRight /></span></Link></li>
-                                               <li><Link to={'/mobile-shelving-furniture'}>Mobile Shelving Furniture <span><LuChevronRight /></span></Link></li>
+                                               <li><Link to={'/product-category/storage-and-racking-furniture'}>Storage & Racking Furniture <span><LuChevronRight /></span></Link></li>
+                                               <li><Link to={'/product-category/shelving-furniture'}>Shelving Furniture <span><LuChevronRight /></span></Link></li>
+                                               <li><Link to={'/product-category/cabinets-and-cupboards'}>Cabinets & Cupboards <span><LuChevronRight /></span></Link></li>
                                     </ul>
                           </div>
     </div>

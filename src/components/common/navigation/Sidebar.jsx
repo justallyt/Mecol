@@ -1,4 +1,4 @@
-import { Link, NavLink } from "react-router-dom"
+import { Link, NavLink, useLocation } from "react-router-dom"
 import logo from "../../../assets/logo.png"
 import { CgClose } from "react-icons/cg"
 import { LuChevronDown } from "react-icons/lu";
@@ -12,6 +12,7 @@ const Sidebar = () => {
    const [dropdownStatus, setDropdownStatus] = useState(false);
    const [sidebarStatus, setSidebarStatus] = useContext(sidebarContext);
    const sidebarRef = useRef();
+   const { pathname } = useLocation();
 
    useEffect(() => {
         if(sidebarStatus) {
@@ -59,7 +60,7 @@ const Sidebar = () => {
                                <ul>
                                        <li><NavLink to={'/'}>Home</NavLink></li>
                                       <li><NavLink to={'/about-us'}>About Us</NavLink></li>
-                                      <li onClick={() => setDropdownStatus(!dropdownStatus)}><NavLink className={dropdownStatus ? "active" : "inactive"} to={'#'}>Products <span><LuChevronDown /></span></NavLink>
+                                      <li onClick={() => setDropdownStatus(!dropdownStatus)}><NavLink className={dropdownStatus || pathname.slice(1,8) === 'product' ? "active" : "inactive"} to={'#'}>Products <span><LuChevronDown /></span></NavLink>
                                                    <MobileDropdown status={dropdownStatus}/>               
                                       </li>
                                        <li><NavLink to={'/contact-us'}>Contact Us</NavLink></li>

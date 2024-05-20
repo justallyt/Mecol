@@ -36,6 +36,7 @@ font-weight: 600;
 .products-body-content h2{
       font-family: var(--font-bold);
       font-size: 30px;
+      font-weight: 500;
 }
 .products-body-row{
     display: grid;
@@ -46,12 +47,25 @@ font-weight: 600;
 }
 .product-moja img{
       max-height: 400px;
+      transition: all 0.8s ease;
+      -webkit-transition: all 0.8s ease;
+      -moz-transition: all 0.8s ease;
+      -ms-transition: all 0.8s ease;
+      -o-transition: all 0.8s ease;
+}
+.product-moja:hover img{
+      transform: scale(0.95);
+      -webkit-transform: scale(0.95);
+      -moz-transform: scale(0.95);
+      -ms-transform: scale(0.95);
+      -o-transform: scale(0.95);
 }
 .product-moja h3{
       font-size: 25px;
       margin: 10px 5px;
       font-family: var(--font-bold);
-      font-weight: 600;
+      font-weight: 500;
+      color: #333;
 }
 
 
