@@ -27,7 +27,7 @@ const swiperData = [
                description: "With over 4 decades of experience, we specialize in manufacture of Office, School, Hospital, Library and Shelving furniture."
       },
       {
-        id: 1,
+        id: 2,
         idText: 'three',
         part1: "We Create ",
         part2: "and",

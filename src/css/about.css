@@ -47,7 +47,7 @@ font-weight: 600;
 }
 .video-box video{
       width: 100%;
-      height: 450px;
+      height: 500px;
 }
 .about-body-description p{
         margin-bottom: 20px;
@@ -55,18 +55,106 @@ font-weight: 600;
         line-height: 32px;
 }
 
+.about-statements{
+        padding-bottom: 100px;
+}
+
+.about-statement-content .statement-intro{
+      display: grid;
+      grid-template-columns: 2.5fr 1fr;
+      gap: 80px;
+      align-items: center;
+}
+.about-statement-content .statement-intro h3{
+       font-size: 55px;
+       font-family: var(--font-bold);
+       font-weight: 600;
+       line-height: 1.3;
+}
+.statement-intro .intro-box h4{
+        font-size: 24px;
+        margin-bottom: 10px;
+}
+.statement-intro .intro-box p{
+       font-size: 20px;
+       line-height: 1.5;
+}
+
+.about-statement-content .numbers{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 50px;
+        margin-top: 50px;
+        border-bottom: 1px solid gainsboro;
+        padding-bottom: 50px;
+}
+.numbers h2{
+        font-size: 50px;
+        font-family: var(--font-bold);
+        font-weight: 500;
+        margin-bottom: 10px;
+}
+.numbers h4{
+       font-size: 22px;
+       margin-bottom: 5px;
+       font-weight: 500;
+       color: rgb(51, 51, 51);
+       font-family: var(--font-bold);
+}
+.numbers p{
+       line-height: 1.6;
+}
+
+.values-section{
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+       gap: 80px;
+       margin-top: 60px;
+       align-items: center;
+}
+.values-wrapper h3{
+       font-size: 40px;
+       font-family: var(--font-bold);
+       font-weight: 600;
+       margin-bottom: 10px;
+}
+.values-section img{
+        height: max-content;
+}
+
+.value-moja{
+       margin-bottom: 20px;
+}
+.value-moja h4{
+       margin-bottom: 5px;
+       font-size: 25px;
+       font-weight: 500;
+       font-family: var(--font-bold);
+}
+.value-moja p{
+       line-height: 1.6;
+       color: rgb(51, 51, 51);
+}
 
 
 
-@media(max-width: 1150px){
+
+
+
+
+
+@media(max-width: 1200px){
        .about-hero-texts{
             width: 100%;
        }
 }
 
 @media(max-width: 1090px){
-       .about-body-content{
-             grid-template-columns: 1fr;
+       .about-body-content,
+       .about-statement-content .statement-intro,
+       .values-section{
+            grid-template-columns: 1fr;
+            gap: 20px;
        }
 }
 
@@ -74,4 +162,16 @@ font-weight: 600;
        .about-hero-texts h1{
              font-size: 55px;
        }
+       .about-statement-content .numbers{
+               grid-template-columns: 1fr 1fr;
+       }
+       .about-statement-content .statement-intro h3{
+              font-size: 40px;
+       }
+}
+@media(max-width: 530px){
+         .about-statement-content .numbers{
+               grid-template-columns: 1fr;
+               gap: 20px;
+         }
 }

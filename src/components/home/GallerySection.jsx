@@ -14,7 +14,7 @@ const GallerySection = () => {
                         </div>
                            <div className="gallery-body">
                                     <div className="left-column">
-                                               { gallery.slice(0, 2).map(item => 
+                                               { gallery.slice(0, 1).map(item => 
                                                          <div className="gallery-item" key={item.id}>
                                                                   <img src={item.image} alt="" />
                                                                   <h4>{item.project}</h4>
@@ -22,7 +22,7 @@ const GallerySection = () => {
                                                 )}
                                     </div>
                                     <div className="right-column">
-                                                 { gallery.slice(2, 5).map(item => 
+                                                 { gallery.slice(1, 2).map(item => 
                                                          <div className="gallery-item" key={item.id}>
                                                                    <img src={item.image} alt="" />
                                                                    <h4>{item.project}</h4>

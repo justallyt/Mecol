@@ -18,7 +18,7 @@ const AboutSection = () => {
                                                  <p>Mecol is a Kenyan company with a global presence, a leader in the manufacture and distribution of high quality furniture for the office and institutional industry. </p>
                                                  <p>We are composed of a team of specialists with several years of experience and intense knowledge about the market trends and requirements generated over time.</p>
 
-                                                 <Link to={'/'} className="btn">Know More <span><LuChevronRight /></span></Link>
+                                                 <Link to={'/about-us'} className="btn">Know More <span><LuChevronRight /></span></Link>
                                      </div>
                           </div>
                </div>

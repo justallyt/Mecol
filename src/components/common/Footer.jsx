@@ -23,17 +23,21 @@ const Footer = () => {
                                                                 <h3>Company</h3>
                                                                 <ul>
                                                                             <li><Link to={'/'}>Home</Link></li>
-                                                                            <li><Link to={'/'}>About Us</Link></li>
-                                                                            <li><Link to={'/'}>Gallery</Link></li>
-                                                                            <li><Link to={'/'}>Contact Us</Link></li>
+                                                                            <li><Link to={'/about-us'}>About Us</Link></li>
+                                                                            <li><Link to={'/products'}>Products</Link></li>
+                                                                            <li><Link to={'/contact'}>Contact Us</Link></li>
                                                                 </ul>
                                                       </div>
                                                       <div className="footer-column">
                                                                  <h3>Products</h3>
                                                                  <ul>
-                                                                           <li><Link to={'/'}>General Furniture</Link></li>
-                                                                           <li><Link to={'/'}>Institutional Furniture</Link></li>
-                                                                           <li><Link to={'/'}>Shelving & Related Furniture</Link></li>
+                                                                            <li><Link to={'/product-category/storage-and-racking-furniture'}>Storage & Racking Furniture</Link></li>
+                                                                            <li><Link to={'/product-category/shelving-furniture'}>Shelving Furniture</Link></li>
+                                                                            <li><Link to={'/product-category/cabinets-and-cupboards'}>Cabinets & Cupboards</Link></li>
+                                                                           <li><Link to={'/product-category/office-furniture'}>Office Furniture </Link></li>
+                                                                           <li><Link to={'/product-category/bank-furniture'}>Bank Furniture </Link></li>
+                                                                           <li><Link to={'/product-category/school-furniture'}>School Furniture</Link></li>
+                                                                            <li><Link to={'/product-category/hospital-furniture'}>Hospital Furniture</Link></li>
                                                                  </ul>
                                                       </div>
                                         </div>

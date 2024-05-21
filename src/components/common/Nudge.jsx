@@ -8,7 +8,7 @@ const Nudge = () => {
                            <div className="nudge-section-content">
                                      <h1>Do you need Furniture Supplies?</h1>
                                      <p>Discover our full range of furniture products for all vast industries we serve.</p>
-                                     <Link to={'/'} className="btn-v2">Request Catalogue <span><GoArrowUpRight /></span></Link>
+                                     <Link to={'/contact'} className="btn-v2">Let&apos;s Talk <span><GoArrowUpRight /></span></Link>
                            </div>
                 </div>
     </div>

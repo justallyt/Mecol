@@ -2,7 +2,7 @@ export const reasons = [
     {
         id: 0,
         title: 'Product Warranty',
-        description: 'We guarantee warranty on all furniture and to be free from material defects in workmanship or materials for a period of one year from date of delivery or collection.',
+        description: 'We warranty all Furniture to be free from material defects in workmanship or materials for a period of one year from the date of delivery or collection.',
         icon: '/warranty.png',
     },
     {
@@ -26,7 +26,7 @@ export const reasons = [
     {
         id: 4,
         title: 'Site Supervision',
-        description: 'Any problems that arise are quickly dealt with to minimize any delays by a site supervisor present that ensures safety and work is carried out satisfactorily.',
+        description: 'Safety on site is also made a priority. Any problems that arise are quickly dealt with to minimize any delays by a site supervisor present that ensures safety and work is carried out satisfactorily.',
         icon: '/supervision.png',
     },
     {
@@ -43,8 +43,20 @@ export const reasons = [
     },
     {
         id: 7,
-        title: 'Quality Furniture',
-        description: 'We are known for high quality and most durable furniture. Quality checks begin right from material acquisition, to production and finally to delivery and installation.',
+        title: 'High Quality Furniture',
+        description: 'Mecol is known for high quality and most durable furniture. Quality checks begin right from material acquisition, to production and finally to delivery and installation.',
         icon: '/quality.png',
     },
+    // {
+    //     id: 8,
+    //     title: 'Exports & International Sites',
+    //     description: 'We have executed many projects in other East African countries including Uganda, Tanzania, South Sudan, Rwanda, Burundi & Zanzibar.',
+    //     icon: '/quality.png',
+    // },
+    // {
+    //     id: 9,
+    //     title: 'Prestige',
+    //     description: 'Mecol Ltd is one of the most reputable, professionally run businesses in the country.',
+    //     icon: '/quality.png',
+    // },
 ]
