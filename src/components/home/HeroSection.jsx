@@ -34,7 +34,16 @@ const swiperData = [
         part3: "Design Furniture",
         spanned: ["Unique", "Modern"],
         description: "With over 4 decades of experience, we specialize in manufacture of Office, School, Hospital, Library and Shelving furniture."
-},
+     },
+     {
+      id: 3,
+      idText: 'four',
+      part1: "We Create ",
+      part2: "and",
+      part3: "Design Furniture",
+      spanned: ["Unique", "Modern"],
+      description: "With over 4 decades of experience, we specialize in manufacture of Office, School, Hospital, Library and Shelving furniture."
+   },
 ]
 const HeroSection = () => {
   return (

@@ -1,7 +1,7 @@
-import chooseImg from "../../assets/chooseImg.jpeg"
+import chooseImg from "../../assets/chooseImg2.jpg"
 import { reasons } from "../../data/reasons"
-import rawMaterial from "../../assets/rawMaterial1.jpeg"
-import workshop from "../../assets/workshop.jpeg"
+import rawMaterial from "../../assets/artisanry.jpg"
+import workshop from "../../assets/workshop2.jpg"
 import carpenter from "../../assets/carpenter.jpeg"
 
 const Choose = () => {

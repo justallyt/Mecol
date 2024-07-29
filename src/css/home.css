@@ -13,7 +13,7 @@
        width: 1280px;
        margin: auto;
 }
-.slide-moja.one{
+.slide-moja.three{
        background: linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.5), rgba(0,0,0,0.1), transparent), url("../assets/landing2.jpg") no-repeat;
        background-size: cover;
        background-position: center;
@@ -23,8 +23,13 @@
        background-size: cover;
        background-position: center;;
 }
-.slide-moja.three{
-       background: linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.5), rgba(0,0,0,0.1), transparent), url("../assets/landing1.jpg") no-repeat;
+.slide-moja.one{
+       background: linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.5), rgba(0,0,0,0.1), transparent), url("../assets/landing4.jpg") no-repeat;
+       background-size: cover;
+       background-position: center;;
+}
+.slide-moja.four{
+       background: linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.5), rgba(0,0,0,0.1), transparent), url("../assets/landing5.jpg") no-repeat;
        background-size: cover;
        background-position: center;;
 }

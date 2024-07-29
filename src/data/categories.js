@@ -4,7 +4,7 @@ export const categories = [
            title: "Cabinets & Cupboards",
            url_param: "cabinets-and-cupboards",
            description: "Under this category, we have commercial range filing cabinets, filing cupboards, map cabinets, clothing lockers and so much more.",
-          image: "/cabinets.jpeg",
+          image: "/cabinets2.jpg",
           icon: "",
           link: "/product-category/cabinets-and-cupboards",
           subcategory: [
@@ -196,7 +196,7 @@ export const categories = [
         title: "Shelving Furniture",
         url_param: 'shelving-furniture',
         description: 'Under this category, we have mobile shelves/bulk filers, laboratory shelves, library shelves and so much more',
-        image: '/shelve-furniture.jpg',
+        image: '/shelving.jpg',
         icon: '/shelf.png',
         link: '/product-category/shelving-furniture',
         subcategory: [
@@ -391,7 +391,7 @@ export const categories = [
         id: 11,
         title: "Storage & Racking Furniture",
         description: 'Under this category, we have medium duty and heavy duty racks.',
-        image: '/racking.jpeg',
+        image: '/racking.jpg',
         icon: '/office.png',
         link: '/product-category/storage-and-racking-furniture',
         url_param: "storage-and-racking-furniture",
@@ -451,7 +451,7 @@ export const categories = [
          id: 0,
          title: "Office Furniture",
          description: 'Under this category, we have office desks, workstations, computer tables, receiption counters, executive conference tables and so much more',
-         image: '/office-furniture.jpg',
+         image: '/office-furniture2.jpg',
          icon: '/office.png',
          link: '/product-category/office-furniture',
          url_param: "office-furniture",
@@ -902,7 +902,7 @@ export const categories = [
         id: 108,
         title: "School Furniture",
         description: 'Under this category, we have beds, desks, cabinets, trolleys and so much more',
-        image: '/school-furniture.jpg',
+        image: '/school-furniture2.jpg',
         icon: '/school.png',
         link: '/product-category/school-furniture',
         url_param: "school-furniture",
@@ -1071,6 +1071,109 @@ export const categories = [
         ]
     },
     {
+      id: 298,
+      title: "Hospital Furniture",
+      description: "Under this category, we have mobile hospital beds, stretchers, drip stands, trolleys, hospital screens and so much more.",
+      image: "/hospital-furniture2.jpg",
+      icon: "",
+      link: "/product-category/hospital-furniture",
+      url_param: "hospital-furniture",
+      subcategory: [
+            {
+                 id: 0,
+                 name: "",
+                 note: "",
+                 products: [
+                        {
+                             id: 0,
+                             image: "/products/hospital/hospital1.png",
+                             description: "Mobile Hospital Bed"
+                        },
+                        {
+                           id: 1,
+                           image: "/products/hospital/hospital2.png",
+                           description: "Hospital Stretcher Trolley"
+                        },
+                        {
+                          id: 2,
+                          image: '/products/hospital/hospital3.png',
+                          description: "Hospital step-stool & examination couch"
+                        },
+                        {
+                          id: 3,
+                          image: "/products/hospital/hospital4.png",
+                          description: "Bedside Locker with 2 drawer & 1 Shelf"
+                        },
+                        {
+                          id: 4,
+                          image: "/products/hospital/hospital5.png",
+                          description: "Hospital Drip Stand 4 way"
+                        },
+                        {
+                            id: 5,
+                            image: "/products/hospital/hospital6.png",
+                            description: "14 Drawer Blood Slide Cabinet"
+                        },
+                        {
+                            id: 6,
+                            image: "/products/hospital/hospital7.png",
+                            description: "7 Drawer card Filing Cabinet"
+                        },
+                        {
+                            id: 7,
+                            image: "/products/hospital/hospital8.png",
+                            description: "Single Soiled Linen Trolley"
+                        },
+                        {
+                          id: 8,
+                          image: "/products/hospital/hospital9.png",
+                          description: "Ward Dressing Trolley"
+                        },
+                        {
+                          id: 9,
+                          image: "/products/hospital/hospital10.png",
+                          description: "Clean & Soiled Linen Trolley"
+                        },
+                        {
+                          id: 10,
+                          image: "/products/hospital/hospital11.png",
+                          description: "Food Trolley with wooden trays"
+                        },
+                        {
+                          id: 11,
+                          image: "/products/hospital/hospital12.png",
+                          description: "Trolley with 4 Metal Trays"
+                        },
+                        {
+                          id: 12,
+                          image: "/products/hospital/hospital13.png",
+                          description: "Medicine Trolley"
+                        },
+                        {
+                          id: 13,
+                          image: "/products/hospital/hospital14.png",
+                          description: "Tissue Block storage Cabinets"
+                        },
+                        {
+                          id: 14,
+                          image: "/products/hospital/hospital15.png",
+                          description: "Bedside Locker"
+                        },
+                        {
+                          id: 15,
+                          image: "/products/hospital/hospital16.png",
+                          description: "4 Fold hospital Screen"
+                        },
+                        {
+                          id: 16,
+                          image: '/products/hospital/hospital17.png',
+                          description: ""
+                        }
+                 ]
+            }
+      ]
+ },
+    {
         id: 287,
         title: "Bank Furniture",
         description: 'Under this category, we have cashier tills, cash boxes, cash trays, atm cabinets, queue stands and so much more',
@@ -1113,109 +1216,7 @@ export const categories = [
                 }
         ]
     },
-   {
-        id: 298,
-        title: "Hospital Furniture",
-        description: "Under this category, we have ",
-        image: "/hospital-furniture.jpg",
-        icon: "",
-        link: "/product-category/hospital-furniture",
-        url_param: "hospital-furniture",
-        subcategory: [
-              {
-                   id: 0,
-                   name: "",
-                   note: "",
-                   products: [
-                          {
-                               id: 0,
-                               image: "/products/hospital/hospital1.png",
-                               description: "Mobile Hospital Bed"
-                          },
-                          {
-                             id: 1,
-                             image: "/products/hospital/hospital2.png",
-                             description: "Hospital Stretcher Trolley"
-                          },
-                          {
-                            id: 2,
-                            image: '/products/hospital/hospital3.png',
-                            description: "Hospital step-stool & examination couch"
-                          },
-                          {
-                            id: 3,
-                            image: "/products/hospital/hospital4.png",
-                            description: "Bedside Locker with 2 drawer & 1 Shelf"
-                          },
-                          {
-                            id: 4,
-                            image: "/products/hospital/hospital5.png",
-                            description: "Hospital Drip Stand 4 way"
-                          },
-                          {
-                              id: 5,
-                              image: "/products/hospital/hospital6.png",
-                              description: "14 Drawer Blood Slide Cabinet"
-                          },
-                          {
-                              id: 6,
-                              image: "/products/hospital/hospital7.png",
-                              description: "7 Drawer card Filing Cabinet"
-                          },
-                          {
-                              id: 7,
-                              image: "/products/hospital/hospital8.png",
-                              description: "Single Soiled Linen Trolley"
-                          },
-                          {
-                            id: 8,
-                            image: "/products/hospital/hospital9.png",
-                            description: "Ward Dressing Trolley"
-                          },
-                          {
-                            id: 9,
-                            image: "/products/hospital/hospital10.png",
-                            description: "Clean & Soiled Linen Trolley"
-                          },
-                          {
-                            id: 10,
-                            image: "/products/hospital/hospital11.png",
-                            description: "Food Trolley with wooden trays"
-                          },
-                          {
-                            id: 11,
-                            image: "/products/hospital/hospital12.png",
-                            description: "Trolley with 4 Metal Trays"
-                          },
-                          {
-                            id: 12,
-                            image: "/products/hospital/hospital13.png",
-                            description: "Medicine Trolley"
-                          },
-                          {
-                            id: 13,
-                            image: "/products/hospital/hospital14.png",
-                            description: "Tissue Block storage Cabinets"
-                          },
-                          {
-                            id: 14,
-                            image: "/products/hospital/hospital15.png",
-                            description: "Bedside Locker"
-                          },
-                          {
-                            id: 15,
-                            image: "/products/hospital/hospital16.png",
-                            description: "4 Fold hospital Screen"
-                          },
-                          {
-                            id: 16,
-                            image: '/products/hospital/hospital17.png',
-                            description: ""
-                          }
-                   ]
-              }
-        ]
-   },
+
    {
         id: 759,
         title: "Clothing Lockers",

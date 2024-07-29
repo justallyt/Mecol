@@ -1,4 +1,7 @@
-import video from "../../assets/vid.mp4"
+//import video from "../../assets/vid.mp4"
+import about1 from "../../assets/about5.jpg"
+import about2 from "../../assets/about6.jpg"
+
 const AboutBody = () => {
   return (
     <div className="about-body-section">
@@ -6,10 +9,14 @@ const AboutBody = () => {
                               <div className="about-body-content">
                                              <div className="about-body-header">
                                                           <h2>Who We Are</h2>
-                                                          <div className="video-box">
+                                                          {/* <div className="video-box">
                                                                     <video autoPlay loop   muted>
                                                                                 <source src={video} type="video/mp4"/>
                                                                     </video>
+                                                          </div> */}
+                                                          <div className="images-wrapper">
+                                                                   <img src={about1} alt="" />
+                                                                   <img src={about2} alt="" />
                                                           </div>
                                              </div>
                                              <div className="about-body-description">

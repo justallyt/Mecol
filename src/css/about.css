@@ -1,5 +1,5 @@
 .about-hero-section{
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url("../assets/aboutbg.jpg") no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url("../assets/aboutbg2.jpg") no-repeat;
     background-size: cover;
     background-position: top;
     padding: 100px 0;;
@@ -44,6 +44,15 @@ font-weight: 600;
        font-family: var(--font-bold);
        font-weight: 600;
        margin-bottom: 20px;
+}
+.about-body-header .images-wrapper{
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+       gap: 10px;
+       align-items: center;
+}
+.about-body-header .images-wrapper img{
+        height: max-content;
 }
 .video-box video{
       width: 100%;

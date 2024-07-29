@@ -1,5 +1,5 @@
 import Partners from "./Partners"
-import aboutImage from "../../assets/aboutImg.jpg"
+import aboutImage from "../../assets/aboutImg2.jpg"
 import { Link } from "react-router-dom"
 import { LuChevronRight } from "react-icons/lu";
 
