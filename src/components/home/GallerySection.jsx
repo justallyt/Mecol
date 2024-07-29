@@ -13,22 +13,15 @@ const GallerySection = () => {
                                  </div>
                         </div>
                            <div className="gallery-body">
-                                    <div className="left-column">
-                                               { gallery.slice(0, 1).map(item => 
-                                                         <div className="gallery-item" key={item.id}>
-                                                                  <img src={item.image} alt="" />
-                                                                  <h4>{item.project}</h4>
-                                                         </div>
-                                                )}
-                                    </div>
-                                    <div className="right-column">
-                                                 { gallery.slice(1, 2).map(item => 
-                                                         <div className="gallery-item" key={item.id}>
-                                                                   <img src={item.image} alt="" />
-                                                                   <h4>{item.project}</h4>
-                                                         </div>
-                                                  )}
-                                    </div>
+                                   { gallery.slice(0, 6).map(item => 
+                                              <div className="gallery-item" key={item.id}>
+                                                       <img src={item.image} alt="" />
+                                                       <h4>{item.project}</h4>
+                                                       <div className="gallery-overlay">
+                                                                <h4>{item.project}</h4>
+                                                       </div>
+                                              </div>
+                                    )}
                             </div>
              </div>
     </div>

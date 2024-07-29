@@ -9,4 +9,9 @@ export const gallery = [
         project: 'Shelving ~ Mobius Motors',
         image: '/gallery/mobius-motors.jpg'
      },
+     {
+         id: 2,
+         project: "Shelving ~ KU Post Modern Library",
+         image: "/gallery/KU.jpg"
+     }
 ]
