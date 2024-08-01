@@ -451,7 +451,7 @@ export const categories = [
          id: 0,
          title: "Office Furniture",
          description: 'Under this category, we have office desks, workstations, computer tables, receiption counters, executive conference tables and so much more',
-         image: '/office-furniture2.jpg',
+         image: '/products/office/workstation.webp',
          icon: '/office.png',
          link: '/product-category/office-furniture',
          url_param: "office-furniture",
@@ -463,69 +463,69 @@ export const categories = [
                       products: [
                              {
                                     id: 0,
-                                    image: "/products/office/office1.png",
-                                   description: "Single pedestal Workstation"
+                                    image: "/products/office/4-way-workstation.jpeg",
+                                   description: "4 Way Office Workstation"
                              },
                              {
                                  id: 1,
-                                 image: "/products/office/office2.png",
-                                 description: "Workstation without pedestals"
+                                 image: "/products/office/6-way-workstation.jpg",
+                                 description: "6 Way Office Workstation"
                              },
                              {
                                  id: 2,
-                                 image: "/products/office/office3.png",
+                                 image: "/products/office/double-pedestal-desk.webp",
                                  description: "Double pedestal workstation L-shaped"
                              },
                             {
                                 id: 3,
-                                image: "/products/office/office4.png",
+                                image: "/products/office/single-pedestal.jpg",
                                 description: "Single pedestal workstation L-shaped with metal legs"
                             },
-                            {
-                                id: 4,
-                                image: "/products/office/office5.png",
-                                description:"4 Way Workstation"
-                            },
+                            // {
+                            //     id: 4,
+                            //     image: "/products/office/office5.png",
+                            //     description:"4 Way Workstation"
+                            // },
                             {
                                 id: 5,
-                                image: "/products/office/office6.png",
+                                image: "/products/office/executive-workstation.webp",
                                 description: "Executive Workstation"
                             },
-                            {
-                                id: 6,
-                                image: "/products/office/office7.png",
-                                description: "Executive Workstation Tsavo"
-                            },
-                            {
-                                id: 7,
-                                image: "/products/office/office8.png",
-                                description: "Executive Workstation Mara"
-                            },
-                            {
-                                 id: 8,
-                                 image: "/products/office/office9.png",
-                                 description: ""
-                            },
-                            {
-                                id: 9,
-                                image: "/products/office/office10.png",
-                                description: ""
-                            },
-                            {
-                                id: 10,
-                                image: "/products/office/office11.png",
-                                description: ""
-                            },
-                            {
-                                id: 11,
-                                image: "/products/office/office12.png",
-                                description: ''
-                            },
-                            {
-                                id: 12,
-                                image: '/products/office/office13.png',
-                                description: ""
-                            }
+                            // {
+                            //     id: 6,
+                            //     image: "/products/office/office7.png",
+                            //     description: "Executive Workstation Tsavo"
+                            // },
+                            // {
+                            //     id: 7,
+                            //     image: "/products/office/office8.png",
+                            //     description: "Executive Workstation Mara"
+                            // },
+                            // {
+                            //      id: 8,
+                            //      image: "/products/office/office9.png",
+                            //      description: ""
+                            // },
+                            // {
+                            //     id: 9,
+                            //     image: "/products/office/office10.png",
+                            //     description: ""
+                            // },
+                            // {
+                            //     id: 10,
+                            //     image: "/products/office/office11.png",
+                            //     description: ""
+                            // },
+                            // {
+                            //     id: 11,
+                            //     image: "/products/office/office12.png",
+                            //     description: ''
+                            // },
+                            // {
+                            //     id: 12,
+                            //     image: '/products/office/office13.png',
+                            //     description: ""
+                            // }
                       ]
                  },
                  {
@@ -565,7 +565,7 @@ export const categories = [
                                },
                                {
                                    id: 6,
-                                   image: "/products/office/table7.png",
+                                   image: "/products/office/oval-conference-table.jpg",
                                    description: "Oval Conference Table Set"
                                },
                             {
@@ -1177,7 +1177,7 @@ export const categories = [
         id: 287,
         title: "Bank Furniture",
         description: 'Under this category, we have cashier tills, cash boxes, cash trays, atm cabinets, queue stands and so much more',
-        image: '/banking.jpeg',
+        image: '/banking-furniture.jpg',
         icon: '/hospital.png',
         link: '/product-category/bank-furniture',
         url_param: "bank-furniture",
