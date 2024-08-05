@@ -56,7 +56,7 @@ export const categories = [
                              description: "Lateral filing cupbaord (2 door) with 3 adjustable shelves."
                            },
                            {
-                             id: 4,
+                             id: 4342,
                              image: "/products/cabinets/cup5.png",
                              description: "Mobile steel cupboard."
                            },
@@ -139,12 +139,44 @@ export const categories = [
                          image: "/products/cabinets/fire2.png",
                          description: 'Fireproof filing cabinet'
                        },
-
+                
                 ]
            },
            {
+                  id: 56,
+                  name: "4. Pedestals",
+                  note: "",
+                  products: [
+                        {
+                              id: 0,
+                              image: "/products/cabinets/mobile-3-drawer.webp",
+                              description: "Mobile 3 Drawer Boxes"
+                        },
+                        {
+                            id: 1,
+                            image: "/products/cabinets/desk-height.webp",
+                            description: "Desk Height 3 Drawer Filing Boxes"
+                        },
+                        {
+                            id: 2,
+                            image: "/products/cabinets/fixed-drawer.webp",
+                            description: "Fixed 3 Drawer Boxes"
+                        },
+                        {
+                            id: 3,
+                            image: "/products/cabinets/mobile-2-drawer.webp",
+                            description: "Mobile 2 Drawer Filing Boxes"
+                        },
+                        {
+                             id: 4,
+                             image: "/products/cabinets/suspension-cabinet.webp",
+                             description: "Suspension Filing Cabinet 4 Drawer"
+                        }
+                  ]
+           },
+           {
             id: 4,
-            name: '4. Other Cabinets',
+            name: '5. Other Cabinets',
             note: "",
             products: [
                    {
@@ -167,11 +199,11 @@ export const categories = [
                     image: "/products/cabinets/other4.png",
                     description: '7 Drawer card filing cabinet'
                   },
-                  {
-                    id: 4,
-                    image: "/products/cabinets/other5.png",
-                    description: 'Mobile 3-drawer pedestal'
-                  },
+                  // {
+                  //   id: 4,
+                  //   image: "/products/cabinets/mobile-3-drawer.webp",
+                  //   description: 'Mobile 3-drawer pedestal'
+                  // },
                   {
                     id: 5,
                     image: "/products/cabinets/other6.png",
@@ -187,6 +219,11 @@ export const categories = [
                     image: "/products/cabinets/other8.png",
                     description: 'Filing unit-cum cabinet'
                   },
+                  {
+                    id: 2,
+                    image: "/products/cabinets/cabinet1.jpg",
+                    description: ""
+                }
             ]
        },
           ]
@@ -226,7 +263,7 @@ export const categories = [
                             description: "Storage shelving unit closed type with side & back panels"
                        },
                        {
-                        id: 4,
+                        id: 434,
                         image: '/products/shelving/storage5.png',
                         description: "Parts shelving unit"
                    },
@@ -481,51 +518,56 @@ export const categories = [
                                 image: "/products/office/single-pedestal.jpg",
                                 description: "Single pedestal workstation L-shaped with metal legs"
                             },
-                            // {
-                            //     id: 4,
-                            //     image: "/products/office/office5.png",
-                            //     description:"4 Way Workstation"
-                            // },
+                            {
+                              id: 4,
+                              image: "/products/office/2-way-workstation.jpg",
+                              description: "2 Way Workstation 1.2m x 1.2m in White"
+                             },
+                            {
+                                id: 4,
+                                image: "/products/office/workstation1.webp",
+                                description:"Metalink Workstation"
+                            },
                             {
                                 id: 5,
                                 image: "/products/office/executive-workstation.webp",
                                 description: "Executive Workstation"
                             },
-                            // {
-                            //     id: 6,
-                            //     image: "/products/office/office7.png",
-                            //     description: "Executive Workstation Tsavo"
-                            // },
-                            // {
-                            //     id: 7,
-                            //     image: "/products/office/office8.png",
-                            //     description: "Executive Workstation Mara"
-                            // },
-                            // {
-                            //      id: 8,
-                            //      image: "/products/office/office9.png",
-                            //      description: ""
-                            // },
-                            // {
-                            //     id: 9,
-                            //     image: "/products/office/office10.png",
-                            //     description: ""
-                            // },
-                            // {
-                            //     id: 10,
-                            //     image: "/products/office/office11.png",
-                            //     description: ""
-                            // },
-                            // {
-                            //     id: 11,
-                            //     image: "/products/office/office12.png",
-                            //     description: ''
-                            // },
-                            // {
-                            //     id: 12,
-                            //     image: '/products/office/office13.png',
-                            //     description: ""
-                            // }
+                            {
+                                id: 6,
+                                image: "/products/office/office-desk.jpg",
+                                description: "OfficeDesk- Beige"
+                            },
+                            {
+                                id: 7,
+                                image: "/products/office/standard-office-desk.jpg",
+                                description: "Standard Office Desk- Walnut"
+                            },
+                            {
+                                 id: 8,
+                                 image: "/products/office/office-wenge.jpg",
+                                 description: "Office Table- Wenge"
+                            },
+                            {
+                                id: 9,
+                                image: "/products/office/staten-desk.jpg",
+                                description: "Staten Desk With 3 Drws 1500 X 750 In Elm"
+                            },
+                            {
+                                id: 10,
+                                image: "/products/office/2-Seater-Workstation.jpg",
+                                description: "2 Seater Workstation"
+                            },
+                            {
+                                id: 11,
+                                image: "/products/office/standard-table-beech.jpg",
+                                description: 'Standard Table- Beech/Black'
+                            },
+                            {
+                                id: 12,
+                                image: '/products/office/novalink-desk.webp',
+                                description: "Novalink Straight Desk"
+                            }
                       ]
                  },
                  {
@@ -533,6 +575,16 @@ export const categories = [
                      name: "2. Tables",
                      note: "",
                      products: [
+                                {
+                                  id: 1484,
+                                  image: "/products/office/height-adjustable.webp",
+                                  description: "Height Adjustable Electric Table"
+                                },
+                                {
+                                  id: 1494,
+                                  image: "/products/office/side-return.webp",
+                                  description: "Basic Side Return"
+                                },
                                {
                                      id: 0,
                                      image: "/products/office/table1.png",
@@ -686,37 +738,177 @@ export const categories = [
                      id: 3,
                      name: "4. Office Chairs",
                      note: "",
+                     productsV2: [
+                            {
+                                 id: 4,
+                                 subcategory: "High back and Lower Back Chairs",
+                                 prods: [
+                                       {
+                                            id: 145,
+                                            image: "/products/office/lower-back.jpg",
+                                            description: "LB Chair HT-749B",
+                                       },
+                                       {
+                                          id: 146,
+                                          image: "/products/office/high-back.jpg",
+                                          description: "Zuri High Back Office Chair"
+                                       },
+                                       {
+                                        id: 234,
+                                        image: "/products/office/draughtsman.jpg",
+                                        description: "Elsie Cashier Office Chair"
+                                       },
+                                       {
+                                           id: 236,
+                                           image: "/products/office/office-chair1.jpg",
+                                           description: ""
+                                       },
+                                       {
+                                           id: 237,
+                                           image: "/products/office/office-chair2.jpg",
+                                           description: ""
+                                       },
+                                       {
+                                        id: 15,
+                                        image: "/products/office/chair16.png",
+                                        description: "Operators Chair with Arms"
+                                    },
+                                    {
+                                        id: 16,
+                                        image: "/products/office/chair17.png",
+                                        description: "Typist Chair"
+                                    },
+                                    {
+                                         id: 17,
+                                         image: "/products/office/chair18.png",
+                                         description: "Clerical Chair"
+                                    },
+                                    {
+                                        id: 18,
+                                        image: "/products/office/chair19.png",
+                                        description: "Executive High Back Mesh Chair"
+                                    },
+                                    {
+                                        id: 19,
+                                        image: "/products/office/chair20.png",
+                                        description: "Medium Lightback Chair"
+                                    },
+                                    {
+                                        id: 20,
+                                        image: "/products/office/chair21.png",
+                                        description: "Cantilever Chair with Arms"
+                                    },
+                                    {
+                                        id: 21,
+                                        image: "/products/office/chair22.png",
+                                        description: "Operator's Chair"
+                                    },
+                                    {
+                                        id: 22,
+                                        image: "/products/office/chair23.png",
+                                        description: "Executive High Back Cantilever chair"
+                                    },
+                                    {
+                                        id: 23,
+                                        image: "/products/office/chair24.png",
+                                        description: "Deluxe Typist Chair"
+                                    },
+                                    {
+                                        id: 24,
+                                        image: "/products/office/chair25.png",
+                                        description: "Executive High back Swivel Chair"
+                                    },
+                                    {
+                                        id: 25,
+                                        image: '/products/office/chair26.png',
+                                        description: "Executive Low Back Swivel Chair"
+                                    },
+                                    {
+                                        id: 26,
+                                        image: "/products/office/chair27.png",
+                                        description: "Executive High Back Swivel Chair"
+                                    },
+                                    {
+                                        id: 27,
+                                        image: '/products/office/chair28.png',
+                                        description: ""
+                                    },
+                                    {
+                                        id: 28,
+                                        image: '/products/office/chair29.png',
+                                        description: ""
+                                    },
+                                    {
+                                        id: 29,
+                                        image: '/products/office/chair30.png',
+                                        description: ""
+                                    },
+                                    
+                                 ]
+                            },
+                            {
+                                  id: 5,
+                                  subcategory: "Visitors Chairs",
+                                  prods: [
+                                 
+                                {
+                                  id: 31,
+                                  image: '/products/office/chair32.png',
+                                  description: ""
+                              },
+                              {
+                                  id: 32,
+                                  image: '/products/office/chair33.png',
+                                  description: "Milano Sofa 1-Seater"
+                              },
+                              {
+                                  id: 33,
+                                  image: '/products/office/chair34.png',
+                                  description: "Milano Sofa 3-Seater"
+                              },
+                              {
+                                  id: 34,
+                                  image: '/products/office/chair35.png',
+                                  description: "Milano Sofa 2-Seater"
+                              }
+                               ]
+                            },
+                            {
+                                id: 6,
+                                subcategory: "Conference Chairs",
+                                prods: [
+                                  {
+                                    id: 0,
+                                    image: "/products/office/chair1.png",
+                                    description: "Standard Conference Chair"
+                                },
+                                {
+                                  id: 1,
+                                  image: "/products/office/chair2.png",
+                                  description: "Conference Chair"
+                                },
+                                {
+                                  id: 2,
+                                  image: "/products/office/chair3.png",
+                                  description: "Office/Conference Chair"
+                                },
+                                ]
+                            }
+                     ],
                      products: [
-                          {
-                              id: 0,
-                              image: "/products/office/chair1.png",
-                              description: "Standard Conference Chair"
-                          },
-                          {
-                            id: 1,
-                            image: "/products/office/chair2.png",
-                            description: "Conference Chair"
-                          },
-                          {
-                            id: 2,
-                            image: "/products/office/chair3.png",
-                            description: "Office/Conference Chair"
-                          },
+
+
                           {
                             id: 3,
                             image: "/products/office/chair4.png",
                             description: "Standard Plastic Chair - Stackable"
                           },
                           {
-                            id: 4,
+                            id: 4456,
                             image: "/products/office/chair5.png",
                             description: "Mata Plastic Chair - Stackable"
                           },
-                          {
-                            id: 5,
-                            image: "/products/office/chair6.png",
-                            description: "Office Chair"
-                          },
+                         
                           {
                             id: 6,
                             image: "/products/office/chair7.png",
@@ -762,116 +954,19 @@ export const categories = [
                             image: "/products/office/chair15.png",
                             description: ""
                           },
-                        {
-                            id: 15,
-                            image: "/products/office/chair16.png",
-                            description: "Operators Chair with Arms"
-                        },
-                        {
-                            id: 16,
-                            image: "/products/office/chair17.png",
-                            description: "Typist Chair"
-                        },
-                        {
-                             id: 17,
-                             image: "/products/office/chair18.png",
-                             description: "Clerical Chair"
-                        },
-                        {
-                            id: 18,
-                            image: "/products/office/chair19.png",
-                            description: "Executive High Back Mesh Chair"
-                        },
-                        {
-                            id: 19,
-                            image: "/products/office/chair20.png",
-                            description: "Medium Lightback Chair"
-                        },
-                        {
-                            id: 20,
-                            image: "/products/office/chair21.png",
-                            description: "Cantilever Chair with Arms"
-                        },
-                        {
-                            id: 21,
-                            image: "/products/office/chair22.png",
-                            description: "Operator's Chair"
-                        },
-                        {
-                            id: 22,
-                            image: "/products/office/chair23.png",
-                            description: "Executive High Back Cantilever chair"
-                        },
-                        {
-                            id: 23,
-                            image: "/products/office/chair24.png",
-                            description: "Deluxe Typist Chair"
-                        },
-                        {
-                            id: 24,
-                            image: "/products/office/chair25.png",
-                            description: "Executive High back Swivel Chair"
-                        },
-                        {
-                            id: 25,
-                            image: '/products/office/chair26.png',
-                            description: "Executive Low Back Swivel Chair"
-                        },
-                        {
-                            id: 26,
-                            image: "/products/office/chair27.png",
-                            description: "Executive High Back Swivel Chair"
-                        },
-                        {
-                            id: 27,
-                            image: '/products/office/chair28.png',
-                            description: ""
-                        },
-                        {
-                            id: 28,
-                            image: '/products/office/chair29.png',
-                            description: ""
-                        },
-                        {
-                            id: 29,
-                            image: '/products/office/chair30.png',
-                            description: ""
-                        },
-                        {
-                            id: 30,
-                            image: '/products/office/chair31.png',
-                            description: ""
-                        },
-                        {
-                            id: 31,
-                            image: '/products/office/chair32.png',
-                            description: ""
-                        },
-                        {
-                            id: 32,
-                            image: '/products/office/chair33.png',
-                            description: "Milano Sofa 1-Seater"
-                        },
-                        {
-                            id: 33,
-                            image: '/products/office/chair34.png',
-                            description: "Milano Sofa 3-Seater"
-                        },
-                        {
-                            id: 34,
-                            image: '/products/office/chair35.png',
-                            description: "Milano Sofa 2-Seater"
-                        }
+                       
+
+
                      ]
                  },
                  {
-                     id: 4,
+                     id: 434,
                      name: "5. Stools",
                      note: "",
                      products: [
                           {
                                 id: 0,
-                                image: "/products/office/stool1.png",
+                                image: "/products/office/draughtsman.jpg",
                                 description: "Draughtsman Chair"
                           },
                           {

@@ -85,7 +85,10 @@ font-weight: 600;
         margin-bottom: 20px;
 }
 
-
+.distinct{
+      width: 90%;
+      margin: auto;
+}
 .subcategory-specifics{
         display: grid;
         grid-template-columns: repeat(3,1fr);
