@@ -1176,7 +1176,7 @@ export const categories = [
       subcategory: [
             {
                  id: 0,
-                 name: "",
+                 name: "1. All",
                  note: "",
                  products: [
                         {
