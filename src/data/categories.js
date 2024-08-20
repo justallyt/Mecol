@@ -1279,7 +1279,7 @@ export const categories = [
         subcategory: [
                 {
                      id: 0,
-                     name: "",
+                     name: "All",
                      note: "",
                      products: [
                         {
@@ -1323,7 +1323,7 @@ export const categories = [
         subcategory: [
                 {
                      id: 0,
-                     name: "",
+                     name: "All",
                      note: "",
                      products: [
                             {
@@ -1392,7 +1392,7 @@ export const categories = [
        subcategory: [
                {
                      id: 0,
-                     name: "",
+                     name: "All",
                      note: "",
                      products: [
                            {
