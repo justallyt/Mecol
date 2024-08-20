@@ -123,8 +123,22 @@ font-weight: 600;
        object-fit: contain;
 }
 
+.subcategory-tabs ul{
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+}
+.subcategory-tabs ul li{
+      padding: 12px 40px;
+      border-bottom: 1px solid gainsboro;
+      cursor: pointer;
+}
 
-
+.subcategory-tabs ul li.active,
+.subcategory-tabs ul li:hover{
+       background-color: var(--main-color);
+       color: white;
+}
 
 
 

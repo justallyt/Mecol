@@ -144,7 +144,7 @@ export const categories = [
            },
            {
                   id: 56,
-                  name: "4. Pedestals",
+                  name: "5. Pedestals",
                   note: "",
                   products: [
                         {
@@ -176,7 +176,7 @@ export const categories = [
            },
            {
             id: 4,
-            name: '5. Other Cabinets',
+            name: '6. Other Cabinets',
             note: "",
             products: [
                    {
