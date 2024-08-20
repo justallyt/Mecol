@@ -36,7 +36,7 @@ const SingleProductHero = () => {
                                                <h2>{item.name}</h2>
                                                <p>{item.note}</p>
                                               
-                                                { item.name === "4. Office Chairs" ?
+                                                { item.name === "4. Office Chairs" || item.name == "2. Tables" ?
                                                       <div className="distinct">
                                                                  {item.productsV2 && item.productsV2.length > 0 && item.productsV2.map(oitem=> 
                                                                         <div className="subcategory" key={oitem.id}>

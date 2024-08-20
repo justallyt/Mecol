@@ -364,9 +364,9 @@ export const categories = [
                           description: "20 Bay 10x2 Mechanical Bulk Filing Cabinet",
                        },
                        {
-                         id: 2,
-                         image: "/products/shelving/mobile3.png",
-                         description: "Bay of 2 Double bookshop Shelving Unit"
+                        id: 2,
+                        image: "/products/shelving/mobile3.jpg",
+                        description: "8 Bay Mobile Shelving"
                        }
                 ]
             },
@@ -420,13 +420,18 @@ export const categories = [
                         image: "/products/shelving/lib9.png",
                         description: "Bay end L-shaped"
                       },
+                      {
+                        id: 9,
+                        image: "/products/shelving/mobile3.png",
+                        description: "Bay of 2 Double bookshop Shelving Unit"
+                      }
                 ]
             }
         ]
     },
     {
         id: 11,
-        title: "Storage & Racking Furniture",
+        title: "Racking Furniture",
         description: 'Under this category, we have medium duty and heavy duty racks.',
         image: '/racking.jpg',
         icon: '/office.png',
@@ -574,127 +579,160 @@ export const categories = [
                      id: 1,
                      name: "2. Tables",
                      note: "",
-                     products: [
+                     productsV2: [
                                 {
-                                  id: 1484,
-                                  image: "/products/office/height-adjustable.webp",
-                                  description: "Height Adjustable Electric Table"
-                                },
-                                {
-                                  id: 1494,
-                                  image: "/products/office/side-return.webp",
-                                  description: "Basic Side Return"
-                                },
-                               {
-                                     id: 0,
-                                     image: "/products/office/table1.png",
-                                     description: "Computer Table 1-Seater- Black Top"
-                               },
-                               {
-                                    id: 1,
-                                    image: "/products/office/table2.png",
-                                    description: "Simple Computer Table 1 Seater"
-                               },
-                               {
-                                   id: 2,
-                                   image: "/products/office/table3.png",
-                                   description: "Computer Table 2-Seater Black top"
-                               },
-                               {
-                                   id: 3,
-                                   image: "/products/office/table4.png",
-                                   description: "2 Way Workstation Open with Divider"
-                               },
-                               {
-                                   id: 4,
-                                   image: "/products/office/table5.png",
-                                   description: "2 Way workstation closed with a shelf & Divider"
-                               },
-                               {
                                   id: 5,
-                                  image: "/products/office/table6.png",
-                                  description: "Conference Table Set"
-                               },
-                               {
-                                   id: 6,
-                                   image: "/products/office/oval-conference-table.jpg",
-                                   description: "Oval Conference Table Set"
-                               },
-                            {
-                                id: 7,
-                                image: '/products/office/table8.png',
-                                description: ''
-                            },
-                            {
-                                id: 8,
-                                image: "/products/office/table9.png",
-                                description: ''
-                            },
-                            {
-                                id: 9,
-                                image: "/products/office/table10.png",
-                                description: ""
-                            },
-                            {
-                                 id: 10,
-                                 image: "/products/office/table11.png",
-                                 description: "Round Coffee Table"
-                            },
-                            {
-                                id: 11,
-                                image: "/products/office/table12.png",
-                                description: "Coffee Table"
-                            },
-                            {
-                                id: 12,
-                                image: '/products/office/table13.png',
-                                description: "Coffee Table with A Shelf"
-                            },
-                            {
-                                id: 13,
-                                image: "/products/office/table14.png",
-                                description: "Conference Table 3-Prong"
-                            },
-                            {
-                                id: 14,
-                                image: "/products/office/table15.png",
-                                description: "Work Table"
-                            },
-                            {
-                                id: 15,
-                                image: '/products/office/table16.png',
-                                description: "Work Table"
-                            },
-                            {
-                                id: 16,
-                                image: '/products/office/table17.png',
-                                description: "Round Folding Table"
-                            },
-                            {
-                                id: 17,
-                                image: "/products/office/table18.png",
-                                description: "Folding Table"
-                            },
-                            {
-                                id: 18,
-                                image: "/products/office/table19.png",
-                                description: "Folding Table H-Type"
-                            },
-                            {
-                                id: 19,
-                                image: "/products/office/table20.png",
-                                description: "Work Table Square"
-                            },
-                            {
-                                id: 20,
-                                image: "/products/office/table21.png",
-                                description: "Work Table Sharp Corners"
-                            },
-                            {
-                                  id: 21, 
-                                  image: "/products/office/table22.png",
-                                  description: "Round Table"
-                            }
+                                  subcategory: "Work Tables",
+                                  prods: [
+                                         {
+                                               id: 1484,
+                                                image: "/products/office/height-adjustable.webp",
+                                              description: "Height Adjustable Electric Table"
+                                          },
+                                          {
+                                            id: 1494,
+                                            image: "/products/office/side-return.webp",
+                                            description: "Basic Side Return"
+                                          },
+                                          {
+                                            id: 10,
+                                            image: "/products/office/table11.png",
+                                            description: "Round Coffee Table"
+                                       },
+                                       {
+                                           id: 11,
+                                           image: "/products/office/table12.png",
+                                           description: "Coffee Table"
+                                       },
+                                       {
+                                           id: 12,
+                                           image: '/products/office/table13.png',
+                                           description: "Coffee Table with A Shelf"
+                                       },
+
+                                       {
+                                           id: 14,
+                                           image: "/products/office/table15.png",
+                                           description: "Work Table"
+                                       },
+                                       {
+                                           id: 15,
+                                           image: '/products/office/table16.png',
+                                           description: "Work Table"
+                                       },
+                                       {
+                                           id: 16,
+                                           image: '/products/office/table17.png',
+                                           description: "Round Folding Table"
+                                       },
+                                       {
+                                           id: 17,
+                                           image: "/products/office/table18.png",
+                                           description: "Folding Table"
+                                       },
+                                       {
+                                           id: 18,
+                                           image: "/products/office/table19.png",
+                                           description: "Folding Table H-Type"
+                                       },
+                                       {
+                                           id: 19,
+                                           image: "/products/office/table20.png",
+                                           description: "Work Table Square"
+                                       },
+                                       {
+                                           id: 20,
+                                           image: "/products/office/table21.png",
+                                           description: "Work Table Sharp Corners"
+                                       },
+                                       {
+                                             id: 21, 
+                                             image: "/products/office/table22.png",
+                                             description: "Round Table"
+                                       }
+                                  ]
+                              },
+                              {
+                                   id: 45,
+                                   subcategory: "Computer Tables",
+                                   prods: [
+                                    {
+                                      id: 0,
+                                      image: "/products/office/table1.png",
+                                      description: "Computer Table 1-Seater- Black Top"
+                                },
+                                {
+                                     id: 1,
+                                     image: "/products/office/table2.png",
+                                     description: "Simple Computer Table 1 Seater"
+                                },
+                                {
+                                    id: 2,
+                                    image: "/products/office/table3.png",
+                                    description: "Computer Table 2-Seater Black top"
+                                },
+                                {
+                                    id: 3,
+                                    image: "/products/office/table4.png",
+                                    description: "2 Way Workstation Open with Divider"
+                                },
+                                {
+                                    id: 4,
+                                    image: "/products/office/table5.png",
+                                    description: "2 Way workstation closed with a shelf & Divider"
+                                },
+                                   ]
+                              },
+                              {
+                                   id: 55,
+                                   subcategory: "Boardroom/Conference Tables",
+                                   prods: [
+                                         {
+                                           id: 6,
+                                           image: "/products/office/oval-conference-table.jpg",
+                                           description: "Oval Conference Table Set"
+                                       },
+                                       {
+                                        id: 7,
+                                        image: '/products/office/conference-table2.jpg',
+                                        description: '12 Seater Conference Table'
+                                    },
+                                    {
+                                      id: 7,
+                                      image: '/products/office/6-seater-conference.jpg',
+                                      description: '6 Seater Conference Table'
+                                  },
+                                       {
+                                        id: 7,
+                                        image: '/products/office/table8.png',
+                                        description: ''
+                                    },
+                                    {
+                                        id: 8,
+                                        image: "/products/office/conference-long.jpg",
+                                        description: 'Modular Conference Table'
+                                    },
+                                    {
+                                        id: 9,
+                                        image: "/products/office/table10.png",
+                                        description: ""
+                                    },
+                                    {
+                                      id: 13,
+                                      image: "/products/office/table14.png",
+                                      description: "Conference Table 3-Prong"
+                                  },
+                                   ]
+                              },
+                              
+                              //  {
+                              //     id: 5,
+                              //     image: "/products/office/table6.png",
+                              //     description: "Conference Table Set"
+                              //  },
+
+ 
+
                      ]
                  },
                  {
@@ -741,23 +779,46 @@ export const categories = [
                      productsV2: [
                             {
                                  id: 4,
-                                 subcategory: "High back and Lower Back Chairs",
+                                 subcategory: "High back and Low Back Chairs",
                                  prods: [
-                                       {
-                                            id: 145,
-                                            image: "/products/office/lower-back.jpg",
-                                            description: "LB Chair HT-749B",
-                                       },
+
                                        {
                                           id: 146,
                                           image: "/products/office/high-back.jpg",
                                           description: "Zuri High Back Office Chair"
                                        },
                                        {
-                                        id: 234,
-                                        image: "/products/office/draughtsman.jpg",
-                                        description: "Elsie Cashier Office Chair"
-                                       },
+                                        id: 24,
+                                        image: "/products/office/chair25.png",
+                                        description: "Executive High back Swivel Chair"
+                                    },
+                                    {
+                                      id: 18,
+                                      image: "/products/office/chair19.png",
+                                      description: "Executive High Back Mesh Chair"
+                                  },
+                                  {
+                                    id: 26,
+                                    image: "/products/office/chair27.png",
+                                    description: "Executive High Back Swivel Chair"
+                                },
+                                {
+                                     id: 4567,
+                                     image: "/products/office/high-back2.jpg",
+                                     description: "High back mesh Chair"
+                                },
+
+                                {
+                                    id: 28,
+                                    image: '/products/office/chair29.png',
+                                    description: ""
+                                },
+                                {
+                                    id: 29,
+                                    image: '/products/office/chair30.png',
+                                    description: ""
+                                },
+                          
                                        {
                                            id: 236,
                                            image: "/products/office/office-chair1.jpg",
@@ -768,84 +829,65 @@ export const categories = [
                                            image: "/products/office/office-chair2.jpg",
                                            description: ""
                                        },
-                                       {
-                                        id: 15,
-                                        image: "/products/office/chair16.png",
-                                        description: "Operators Chair with Arms"
-                                    },
-                                    {
-                                        id: 16,
-                                        image: "/products/office/chair17.png",
-                                        description: "Typist Chair"
-                                    },
-                                    {
-                                         id: 17,
-                                         image: "/products/office/chair18.png",
-                                         description: "Clerical Chair"
-                                    },
-                                    {
-                                        id: 18,
-                                        image: "/products/office/chair19.png",
-                                        description: "Executive High Back Mesh Chair"
-                                    },
+
+
                                     {
                                         id: 19,
                                         image: "/products/office/chair20.png",
                                         description: "Medium Lightback Chair"
                                     },
-                                    {
-                                        id: 20,
-                                        image: "/products/office/chair21.png",
-                                        description: "Cantilever Chair with Arms"
-                                    },
-                                    {
-                                        id: 21,
-                                        image: "/products/office/chair22.png",
-                                        description: "Operator's Chair"
-                                    },
-                                    {
-                                        id: 22,
-                                        image: "/products/office/chair23.png",
-                                        description: "Executive High Back Cantilever chair"
-                                    },
-                                    {
-                                        id: 23,
-                                        image: "/products/office/chair24.png",
-                                        description: "Deluxe Typist Chair"
-                                    },
-                                    {
-                                        id: 24,
-                                        image: "/products/office/chair25.png",
-                                        description: "Executive High back Swivel Chair"
-                                    },
+
                                     {
                                         id: 25,
                                         image: '/products/office/chair26.png',
                                         description: "Executive Low Back Swivel Chair"
                                     },
+
                                     {
-                                        id: 26,
-                                        image: "/products/office/chair27.png",
-                                        description: "Executive High Back Swivel Chair"
-                                    },
-                                    {
-                                        id: 27,
-                                        image: '/products/office/chair28.png',
-                                        description: ""
-                                    },
-                                    {
-                                        id: 28,
-                                        image: '/products/office/chair29.png',
-                                        description: ""
-                                    },
-                                    {
-                                        id: 29,
-                                        image: '/products/office/chair30.png',
-                                        description: ""
-                                    },
-                                    
+                                      id: 145,
+                                      image: "/products/office/lower-back.jpg",
+                                      description: "LB Chair HT-749B",
+                                 },
                                  ]
                             },
+                            {
+                                 id: 65,
+                                 subcategory: "Clerical/Operator Chairs",
+                                 prods: [
+                                  {
+                                    id: 15,
+                                    image: "/products/office/chair16.png",
+                                    description: "Operators Chair with Arms"
+                                },
+                                {
+                                    id: 16,
+                                    image: "/products/office/chair17.png",
+                                    description: "Typist Chair"
+                                },
+                                {
+                                     id: 17,
+                                     image: "/products/office/chair18.png",
+                                     description: "Clerical Chair"
+                                },
+
+                                {
+                                  id: 21,
+                                  image: "/products/office/chair22.png",
+                                  description: "Operator's Chair"
+                                },
+                                {
+                                  id: 23,
+                                  image: "/products/office/chair24.png",
+                                  description: "Deluxe Typist Chair"
+                              },
+                              {
+                                id: 234,
+                                image: "/products/office/draughtsman.jpg",
+                                description: "Elsie Cashier Office Chair"
+                               },
+                                 ]
+                            },
+
                             {
                                   id: 5,
                                   subcategory: "Visitors Chairs",
@@ -870,7 +912,27 @@ export const categories = [
                                   id: 34,
                                   image: '/products/office/chair35.png',
                                   description: "Milano Sofa 2-Seater"
-                              }
+                              },
+                              {
+                                id: 20,
+                                image: "/products/office/chair21.png",
+                                description: "Cantilever Chair with Arms"
+                            },
+                            {
+                              id: 2344,
+                              image: "/products/office/mesh-cantilever.jpg",
+                              description: "Mesh Cantilever Chair"
+                          },
+                            {
+                                id: 22,
+                                image: "/products/office/chair23.png",
+                                description: "Executive High Back Cantilever chair"
+                            },
+                            {
+                              id: 27,
+                              image: '/products/office/chair28.png',
+                              description: "Executive Medium Back Cantilever Chair"
+                          },
                                ]
                             },
                             {
@@ -1279,7 +1341,7 @@ export const categories = [
         subcategory: [
                 {
                      id: 0,
-                     name: "All",
+                     name: "1. All",
                      note: "",
                      products: [
                         {
@@ -1323,7 +1385,7 @@ export const categories = [
         subcategory: [
                 {
                      id: 0,
-                     name: "All",
+                     name: "1. All",
                      note: "",
                      products: [
                             {
@@ -1392,7 +1454,7 @@ export const categories = [
        subcategory: [
                {
                      id: 0,
-                     name: "All",
+                     name: "1. All",
                      note: "",
                      products: [
                            {
