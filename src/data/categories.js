@@ -807,7 +807,11 @@ export const categories = [
                                      image: "/products/office/high-back2.jpg",
                                      description: "High back mesh Chair"
                                 },
-
+                                {
+                                  id: 9967,
+                                  image: "/products/office/high-back3.jpg",
+                                  description: "High back mesh Chair"
+                                 },
                                 {
                                     id: 28,
                                     image: '/products/office/chair29.png',
