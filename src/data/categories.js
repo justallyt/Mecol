@@ -4,7 +4,7 @@ export const categories = [
            title: "Cabinets & Cupboards",
            url_param: "cabinets-and-cupboards",
            description: "Under this category, we have commercial range filing cabinets, filing cupboards, map cabinets, clothing lockers and so much more.",
-          image: "/cabinets2.jpg",
+          image: "/products/cabinets/cabinets-main-image.jpg",
           icon: "",
           link: "/product-category/cabinets-and-cupboards",
           subcategory: [
@@ -16,17 +16,20 @@ export const categories = [
                               {
                                    id: 0,
                                    image: "/products/cabinets/drawer-filing.png",
-                                   description: "2-6 Drawer filing cabinets in different colors"
+                                   description: "2-6 Drawer filing cabinets in different colors",
+                                   code: "MFC-016,MFC-015,MFC-014,MFC-013,MFC-012"
                               },
                               {
                                 id: 1,
                                 image: "/products/cabinets/drawer-filing2.png",
-                                description: "4 Drawer filing cabinet with a flap locking bar"
+                                description: "4 Drawer filing cabinet with a flap locking bar",
+                                code: "FC /F - 014"
                               },
                               {
                                 id: 2,
                                 image: "/products/cabinets/drawer-filing3.png",
-                                description: "5 Drawer filing cabinet with a lock on each drawer."
+                                description: "5 Drawer filing cabinet with a lock on each drawer.",
+                                code: "MFC / N - 05"
                               }
                        ]
                   },
@@ -38,32 +41,38 @@ export const categories = [
                            {
                                 id: 0,
                                 image: "/products/cabinets/cup1.png",
-                                description: "Lateral filing cupboard with shelves and plastic roller shutter"
+                                description: "Lateral filing cupboard with shelves and plastic roller shutter",
+                                code: "MCR - 03/ R6"
                            },
-                           {
-                             id: 1,
-                             image: "/products/cabinets/cup2.png",
-                             description: "Lateral filing cupboard with rails and plastic roller shutter"
-                           },
+                          //  {
+                          //    id: 1,
+                          //    image: "/products/cabinets/cup2.png",
+                          //    description: "Lateral filing cupboard with rails and plastic roller shutter",
+                          //    code: "MCB - 02"
+                          //  },
                            {
                              id: 2,
                              image: "/products/cabinets/cup3.png",
-                             description: "Lateral filing cupboard(2 door) with 4 adjustable shelves."
+                             description: "Lateral filing cupboard(2 door) with 4 adjustable shelves.",
+                             code: "MCB - 03"
                            },
                            {
                              id: 3,
                              image: "/products/cabinets/cup4.png",
-                             description: "Lateral filing cupbaord (2 door) with 3 adjustable shelves."
+                             description: "Lateral filing cupbaord (2 door) with 3 adjustable shelves.",
+                             code: "MCB - 02"
                            },
                            {
                              id: 4342,
                              image: "/products/cabinets/cup5.png",
-                             description: "Mobile steel cupboard."
+                             description: "Mobile steel cupboard.",
+                             code: "MCB - 045/013"
                            },
                            {
                              id: 5,
                              image: "/products/cabinets/cup6.png",
-                             description: "Mobile half cupboard."
+                             description: "Mobile half cupboard.",
+                             code: "MCB - 045/14"
                            },
                             {
                              id: 6,
@@ -88,12 +97,14 @@ export const categories = [
                           {
                             id: 10,
                             image: "/products/cabinets/cup11.png",
-                            description: 'Steel cupboard 36"x36"x18" with one shelf.'
+                            description: 'Steel cupboard 36"x36"x18" with one shelf.',
+                            code: "MCB - 01"
                           },
                           {
                             id: 11,
                             image: "/products/cabinets/cup12.png",
-                            description: 'Steel cupboard with sliding doors: 36"x36"x18".'
+                            description: 'Steel cupboard with sliding doors: 36"x36"x18".',
+                            code: "UD - 311/16"
                           },
                           {
                             id: 12,
@@ -110,17 +121,20 @@ export const categories = [
                        {
                             id: 0,
                             image: "/products/cabinets/map1.png",
-                            description: "5-Drawer horizontal map filing cabinet"
+                            description: "5-Drawer horizontal map filing cabinet",
+                            code: "MHC - 03"
                        },
                        {
                          id: 1,
                          image: "/products/cabinets/map2.png",
-                         description: 'Vertical plan filing cabinet: 52"Hx35"Wx20"  Deep (Double Elephant)'
+                         description: 'Vertical plan filing cabinet: 52"Hx35"Wx20"  Deep (Double Elephant)',
+                         code: "MVP - 01"
                        },
                        {
                          id: 2,
                          image: "/products/cabinets/map3.png",
-                         description: 'Vertical filing cabinet: 45"Hx60"W x20" Deep'
+                         description: 'Antiquarian filing cabinet: 45"Hx60"W x20" Deep',
+                         code: "MVP - 02"
                        }
                 ]
            },
@@ -182,22 +196,27 @@ export const categories = [
                    {
                         id: 0,
                         image: "/products/cabinets/other1.png",
-                        description: "5, 10 & 20 Drawer stationery cabinets"
+                        description: "5, 10 & 20 Drawer stationery cabinets",
+                        code: "MCS - 20,MCS-10,MCS-5"
                    },
                    {
                      id: 1,
                      image: "/products/cabinets/other2.png",
-                     description: 'Steel cupboard with glass doors'
+                     description: 'Steel cupboard with glass doors',
+                     code: "SD - 001/26"
                    },
                    {
                     id: 2,
                     image: "/products/cabinets/other3.png",
-                    description: 'Heavy duty server cabinet with a stand'
+                    description: 'Heavy duty server cabinet with a stand',
+                    code: "SD - 001/16"
                   },
                   {
                     id: 3,
                     image: "/products/cabinets/other4.png",
-                    description: '7 Drawer card filing cabinet'
+                    description: '7 Drawer card filing cabinet',
+                    code: "MFC - 017"
+
                   },
                   // {
                   //   id: 4,
@@ -207,23 +226,26 @@ export const categories = [
                   {
                     id: 5,
                     image: "/products/cabinets/other6.png",
-                    description: '15 draer stationery cabinet'
+                    description: '15 drawer stationery cabinet',
+                    code: "MCS - 15"
                   },
                   {
                     id: 6,
                     image: "/products/cabinets/other7.png",
-                    description: 'Key cabinet Options: 19, 39,59 & 91 hooks'
+                    description: 'Key cabinet Options: 19, 39,59 & 91 hooks',
+                    code: "MKC"
                   },
                   {
                     id: 7,
                     image: "/products/cabinets/other8.png",
-                    description: 'Filing unit-cum cabinet'
+                    description: 'Filing unit-cum cabinet',
+                    code: "MCB - 02/S1"
                   },
-                  {
-                    id: 2,
-                    image: "/products/cabinets/cabinet1.jpg",
-                    description: ""
-                }
+                //   {
+                //     id: 2,
+                //     image: "/products/cabinets/cabinet1.jpg",
+                //     description: ""
+                // }
             ]
        },
           ]
@@ -245,47 +267,56 @@ export const categories = [
                           {
                                id: 0,
                                image: '/products/shelving/storage1.png',
-                               description: "Storage shelving unit open type with braces"
+                               description: "Storage shelving unit open type with braces",
+                               code: "MSS - 001"
                           },
                           {
                             id: 1,
                             image: '/products/shelving/storage2.png',
-                            description: "Storage - Lateral shelving unit open type with braces"
+                            description: "Storage - Lateral shelving unit open type with braces",
+                            code: "MSS - 002"
                        },
                         {
                                id: 2,
                                image: '/products/shelving/storage3.png',
-                               description: "Storage shelving unit Open type with corner gussets"
+                               description: "Storage shelving unit Open type with corner gussets",
+                               code: "MSS - 003"
                           },
                           {
                             id: 3,
                             image: '/products/shelving/storage4.png',
-                            description: "Storage shelving unit closed type with side & back panels"
+                            description: "Storage shelving unit closed type with side & back panels",
+                            code: "MSS - 004"
                        },
                        {
                         id: 434,
                         image: '/products/shelving/storage5.png',
-                        description: "Parts shelving unit"
+                        description: "Parts shelving unit",
+                        code: "MSS - 005"
                    },
                    {
                     id: 5,
                     image: '/products/shelving/storage6.png',
-                    description: "Pigeon hole shelving unit"
+                    description: "Pigeon hole shelving unit closed type with shelves, dividers & panels",
+                    code: "MSS - 006"
                },
                {
                 id: 6,
-                image: '/products/shelving/storage7.png',
-                description: "Work Bench"
+                image: '/products/shelving/storage-7v2.png',
+                description: "Work Bench",
+                code: "SD - 001/27"
                },
                {
                 id: 7,
-                image: '/products/shelving/storage8.png',
-                description: "Trolley cum-ladder"
+                image: '/products/shelving/storage8v2.png',
+                description: "Mobile Trolley with ladder",
+                code: "SD - 001/28"
               },
               {
                 id: 8,
                 image: '/products/shelving/storage9.png',
-                description: "Mezzanine Shelving"
+                description: "Mezzanine Shelving",
+                code: "MSS - 007"
               },
                    ]
                },
@@ -295,35 +326,47 @@ export const categories = [
                    note: "",
                    products: [
                           {
+                            id: 3,
+                            image: '/products/shelving/super4v2.png',
+                            description: "Double sided supermarket shelving",
+                            code: "MSP 224 - 9"
+                          },
+                          {
+                            id: 5,
+                            image: '/products/shelving/super6.png',
+                            description: "Single sided supermarket shelving",
+                            code: "MSP 221 - 3"
+                        },
+                        {
+                               id: 6,
+                               image: "/products/shelving/super7.png",
+                               description: "Supermarket Shelving"
+                        },
+                        {
+                          id: 1,
+                          image: "/products/shelving/super2.png",
+                          description: "Supermarket counter",
+                          code: "MSP - 401B"
+                      },
+                          {
                                id: 0,
                                image: '/products/shelving/super1.png',
                                description: "Supermarket shelving"
                           },
                           {
-                              id: 1,
-                              image: "/products/shelving/super2.png",
-                              description: "Supermarket counter"
-                          },
-                          {
-                             id: 2,
-                             image: "/products/shelving/super3.png",
-                             description: "Supermarket shelving"
-                          },
-                          {
-                            id: 3,
-                            image: '/products/shelving/super4.png',
-                            description: "Double sided supermarket shelving"
-                          },
-                        {
-                            id: 4,
-                            image: '/products/shelving/super5.png',
-                            description: "File Trolley"
-                        },
-                        {
-                            id: 5,
-                            image: '/products/shelving/super6.png',
-                            description: "Single sided supermarket shelving"
-                        }
+                            id: 2,
+                            image: "/products/shelving/super3.png",
+                            description: "Supermarket shelving"
+                         },
+                    
+                     
+                    
+                        // {
+                        //     id: 4,
+                        //     image: '/products/shelving/super5.png',
+                        //     description: "File Trolley"
+                        // },
+                
                    ]
                },
                {
@@ -334,7 +377,8 @@ export const categories = [
                           {
                              id: 0,
                              image: "/products/shelving/lab1.png",
-                             description: "Mobile growth shelves"
+                             description: "Mobile growth shelves",
+                             code: "SD - 001"
                           },
                           {
                              id: 1,
@@ -344,7 +388,8 @@ export const categories = [
                           {
                             id: 2,
                             image: "/products/shelving/lab3.png",
-                            description: "Growth shelves"
+                            description: "Growth shelves",
+                            code: ""
                           }
                    ]
                },
@@ -355,18 +400,21 @@ export const categories = [
                 products: [
                        {
                           id: 0,
-                          image: "/products/shelving/mobile1.png",
-                          description: "4-Bay Manual bulk Filing cabinet"
+                          image: "/products/shelving/mobile-shelving.jpg",
+                          description: "4-Bay Manual bulk Filing cabinet",
+                          code: "BMFU  - 87C"
                        },
                        {
                           id: 1,
-                          image: "/products/shelving/mobile2.png",
+                          image: "/products/shelving/mobile-shelving2.png",
                           description: "20 Bay 10x2 Mechanical Bulk Filing Cabinet",
+                          code: "BFU"
                        },
                        {
                         id: 2,
                         image: "/products/shelving/mobile3.jpg",
-                        description: "8 Bay Mobile Shelving"
+                        description: "8 Bay Mobile Shelving",
+                        code: "BFU"
                        }
                 ]
             },
@@ -375,34 +423,46 @@ export const categories = [
                 name: "5. Library Shelving",
                 note: "",
                 products: [
+                     {
+                        id: 3,
+                        image: "/products/shelving/lib44.png",
+                        description: "Bay of 2 double library shelving unit",
+                        code: "MLF 000 - 2D"
+                      },
                        {
                           id: 0,
                           image: "/products/shelving/lib1.png",
-                          description: "Bay of 2 double library shelving unit with wooden end panels"
+                          description: "Bay of 2 double library shelving unit with wooden end panels",
+                          code: "MLF 031 - 8"
                        },
                        {
                           id: 1,
-                          image: "/products/shelving/lib2.png",
+                          image: "/products/shelving/lib22.png",
                           description: "Bay of 2 single library shelving unit",
+                          code: "MLF 000 - 25"
                        },
+                         {
+                        id: 4,
+                        image: "/products/shelving/lib55.png",
+                        description: "Single library shelving unit",
+                        code: "MLF 00 - 5"
+                      },
+                      {
+                           id: 545,
+                           image: "/products/shelving/lib10.png",
+                           description: "Double sided Library Shelving Unit",
+                           code: "MLF - 014"
+                      },
                        {
                          id: 2,
                          image: "/products/shelving/lib3.png",
                          description: "Library displaying shelving unit"
                        },
-                       {
-                        id: 3,
-                        image: "/products/shelving/lib4.png",
-                        description: "Bay of 2 double library shelving unit"
-                      },
-                      {
-                        id: 4,
-                        image: "/products/shelving/lib5.png",
-                        description: "Single library shelving unit"
-                      },
+                    
+                    
                       {
                         id: 5,
-                        image: "/products/shelving/lib6.png",
+                        image: "/products/shelving/lib66.png",
                         description: "Metal display shelving unit"
                       },
                       {
@@ -413,12 +473,14 @@ export const categories = [
                       {
                         id: 7,
                         image: "/products/shelving/lib8.png",
-                        description: "Book end T-shaped"
+                        description: "Book end T-shaped",
+                        code: "MBE - 111"
                       },
                       {
                         id: 8,
                         image: "/products/shelving/lib9.png",
-                        description: "Bay end L-shaped"
+                        description: "Bay end L-shaped",
+                        code: "MBE - 110"
                       },
                       {
                         id: 9,
@@ -443,31 +505,25 @@ export const categories = [
                    name: "1. Heavy Duty Racks",
                    note: "",
                    products: [
+                    {
+                      id: 1,
+                      image: "/products/racking/rack2.png",
+                      description: "Single heavy duty rack",
+                      code: "HDR - 1"
+                   },
+                   {
+                        id: 2,
+                        image: "/products/racking/rack7.png",
+                        description: "Bay of 2 Single heavy duty rack",
+                        code: "HDR - 2"
+                   },
                           {
                                 id: 0,
                                 image: "/products/racking/rack1.png",
                                 description: "Bay of 3 Cantilever racking"
                           },
-                          {
-                            id: 1,
-                            image: "/products/racking/rack2.png",
-                            description: "Single heavy duty rack"
-                         },
-                         {
-                              id: 2,
-                              image: "/products/racking/rack7.png",
-                              description: "Bay of 2 Single heavy duty rack"
-                         },
-                         {
-                             id: 3,
-                             image: "/products/racking/rack5.png",
-                             description: "Metal Step Stool"
-                         },
-                         {
-                             id: 4,
-                             image: "/products/racking/rack6.png",
-                             description: "Panel/Glass rack - 1"
-                         },
+
+                        
                          {
                              id: 5,
                              image: "/products/racking/rack4.png",
@@ -480,15 +536,68 @@ export const categories = [
                    name: "2. Medium Duty Racks",
                    note: "",
                    products: [
+                         {
+                                id: 104,
+                                image: "/products/racking/mdr-01.png",
+                                description: "Medium duty racks",
+                                code: "MDR - 1"
+                         },
+                         {
+                               id: 105,
+                               image: "/products/racking/mdr2.png",
+                               code: "MDR -2",
+                               description: "Medium duty rack"
+                         },
+                        // {
+                        //      id: 0,
+                        //      image: "/products/racking/rack3.png",
+                        //      description: "Single medium rack"
+                        // },
                         {
-                             id: 0,
-                             image: "/products/racking/rack3.png",
-                             description: "Single medium rack"
-                        }
+                          id: 3,
+                          image: "/products/racking/rack5.png",
+                          description: "Metal Step Stool",
+                          code: "MIT - 0081"
+                      },
+                      {
+                          id: 4,
+                          image: "/products/racking/rack6.png",
+                          description: "Panel/Glass rack - 1",
+                          code: "SD - 001/29"
+                      },
                    ]
               }
         ]
     },
+    // {
+    //       id: 8494,
+    //       title: "Lockers",
+    //       description: "Under this category, we have clothing lockers, pigeon hole lockers, bedside lockers etc",
+    //       image: "/products/lockers/main-image.jpg",
+    //       icon: "/office.png",
+    //      link: "/product-category/lockers",
+    //      url_param: "lockers",
+    //      subcategory: [
+    //              {
+    //                   id: 0,
+    //                   name: "1. Clothing Lockers",
+    //                   note: "",
+    //                   products: [
+    //                          {
+    //                               id: 0,
+    //                               image: "/products/lockers/single.jpg",
+    //                               description: "Single Compartment Clothing Locker",
+    //                               code: "MLs - 100"
+    //                          },
+    //                          {
+    //                               id: 1,
+    //                               image: "/products/lockers/"
+    //                          }
+
+    //                   ]
+    //              }
+    //      ]
+    // },
      {
          id: 0,
          title: "Office Furniture",
@@ -525,18 +634,40 @@ export const categories = [
                             },
                             {
                               id: 4,
-                              image: "/products/office/2-way-workstation.jpg",
+                              image: "/products/office/2-Seater-Workstation.jpg",
                               description: "2 Way Workstation 1.2m x 1.2m in White"
                              },
+                             {
+                                        id: 594,
+                                        image: "/products/office/workstation12.png",
+                                        description: "4 way Metalink Workstation",
+                             },
                             {
-                                id: 4,
+                                id: 44,
                                 image: "/products/office/workstation1.webp",
                                 description:"Metalink Workstation"
                             },
                             {
+                              id: 12,
+                              image: '/products/office/novalink-desk.webp',
+                              description: "Novalink Straight Desk"
+                          },
+                            {
                                 id: 5,
                                 image: "/products/office/executive-workstation.webp",
                                 description: "Executive Workstation"
+                            },
+                            {
+                                id: 55,
+                                image: "/products/office/executive32.png",
+                                description: "Executive Workstation Mara",
+                                code: "DST - E2"
+                            },
+                            {
+                                 id: 56,
+                                 image: "/products/office/executive31.png",
+                                 code: "DST - E4",
+                                 description: "Executive Workstation Serengeti"
                             },
                             {
                                 id: 6,
@@ -553,26 +684,18 @@ export const categories = [
                                  image: "/products/office/office-wenge.jpg",
                                  description: "Office Table- Wenge"
                             },
-                            {
-                                id: 9,
-                                image: "/products/office/staten-desk.jpg",
-                                description: "Staten Desk With 3 Drws 1500 X 750 In Elm"
-                            },
-                            {
-                                id: 10,
-                                image: "/products/office/2-Seater-Workstation.jpg",
-                                description: "2 Seater Workstation"
-                            },
-                            {
-                                id: 11,
-                                image: "/products/office/standard-table-beech.jpg",
-                                description: 'Standard Table- Beech/Black'
-                            },
-                            {
-                                id: 12,
-                                image: '/products/office/novalink-desk.webp',
-                                description: "Novalink Straight Desk"
-                            }
+                            // {
+                            //     id: 9,
+                            //     image: "/products/office/staten-desk.jpg",
+                            //     description: "Staten Desk With 3 Drws 1500 X 750 In Elm"
+                            // },
+                    
+                            // {
+                            //     id: 11,
+                            //     image: "/products/office/standard-table-beech.jpg",
+                            //     description: 'Standard Table- Beech/Black'
+                            // },
+                          
                       ]
                  },
                  {
@@ -597,7 +720,8 @@ export const categories = [
                                           {
                                             id: 10,
                                             image: "/products/office/table11.png",
-                                            description: "Round Coffee Table"
+                                            description: "Round Coffee Table",
+                                            code: "CT 02 - 3"
                                        },
                                        {
                                            id: 11,
@@ -607,7 +731,8 @@ export const categories = [
                                        {
                                            id: 12,
                                            image: '/products/office/table13.png',
-                                           description: "Coffee Table with A Shelf"
+                                           description: "Coffee Table with grill Shelf",
+                                           code: "CT - 020"
                                        },
 
                                        {
@@ -623,22 +748,26 @@ export const categories = [
                                        {
                                            id: 16,
                                            image: '/products/office/table17.png',
-                                           description: "Round Folding Table"
+                                           description: "Round Folding Table",
+                                           code: "TB 003 - FR"
                                        },
                                        {
                                            id: 17,
                                            image: "/products/office/table18.png",
-                                           description: "Folding Table"
+                                           description: "Folding Table",
+                                           code: "TB 002 - FS"
                                        },
                                        {
                                            id: 18,
                                            image: "/products/office/table19.png",
-                                           description: "Folding Table H-Type"
+                                           description: "Folding Table H-Type",
+                                           code: "TB 001 - FH"
                                        },
                                        {
                                            id: 19,
                                            image: "/products/office/table20.png",
-                                           description: "Work Table Square"
+                                           description: "Work Table Square",
+                                           code: "TB 200 - S"
                                        },
                                        {
                                            id: 20,
@@ -648,7 +777,8 @@ export const categories = [
                                        {
                                              id: 21, 
                                              image: "/products/office/table22.png",
-                                             description: "Round Table"
+                                             description: "Round Table",
+                                             code: "RT - 021 /3"
                                        }
                                   ]
                               },
@@ -663,23 +793,27 @@ export const categories = [
                                 },
                                 {
                                      id: 1,
-                                     image: "/products/office/table2.png",
-                                     description: "Simple Computer Table 1 Seater"
+                                     image: "/products/office/comp1.png",
+                                     description: "Simple Computer Table 1 Seater",
+                                     code: "CP - 037"
                                 },
                                 {
                                     id: 2,
                                     image: "/products/office/table3.png",
-                                    description: "Computer Table 2-Seater Black top"
+                                    description: "Computer Table 2-Seater Black top",
+                                    code: "CP - 012"
                                 },
                                 {
                                     id: 3,
                                     image: "/products/office/table4.png",
-                                    description: "2 Way Workstation Open with Divider"
+                                    description: "2 Way Workstation Open with Divider",
+                                    code: "LT/W - 01"
                                 },
                                 {
                                     id: 4,
                                     image: "/products/office/table5.png",
-                                    description: "2 Way workstation closed with a shelf & Divider"
+                                    description: "2 Way workstation closed with a shelf & Divider",
+                                    code: "LT/W - 02"
                                 },
                                    ]
                               },
@@ -743,7 +877,8 @@ export const categories = [
                              {
                                  id: 0,
                                  image: "/products/office/counter1.png",
-                                 description: "Reception Counter 1"
+                                 description: "Reception Counter 1",
+                                 code: "DSR - 001"
                              },
                              {
                                 id: 1,
@@ -795,7 +930,8 @@ export const categories = [
                                     {
                                       id: 18,
                                       image: "/products/office/chair19.png",
-                                      description: "Executive High Back Mesh Chair"
+                                      description: "Executive High Back Mesh Chair",
+                                      code: "EC - 119H"
                                   },
                                   {
                                     id: 26,
@@ -851,6 +987,7 @@ export const categories = [
                                       id: 145,
                                       image: "/products/office/lower-back.jpg",
                                       description: "LB Chair HT-749B",
+                                      code: ""
                                  },
                                  ]
                             },
@@ -887,7 +1024,7 @@ export const categories = [
                               {
                                 id: 234,
                                 image: "/products/office/draughtsman.jpg",
-                                description: "Elsie Cashier Office Chair"
+                                description: "Cashier Office Chair"
                                },
                                  ]
                             },
@@ -946,7 +1083,32 @@ export const categories = [
                                   {
                                     id: 0,
                                     image: "/products/office/chair1.png",
-                                    description: "Standard Conference Chair"
+                                    description: "Standard Conference Chair",
+                                    code: "UC - 011"
+                                },
+                                {
+                                    id: 1,
+                                    image: "/products/office/chair112.png",
+                                    description: "Conference Chair",
+                                    code: "ECI - DO55P Blue"
+                                },
+                                {
+                                   id: 2,
+                                   image: "/products/office/chair11.png",
+                                   code: "ECI - DO55P Red",
+                                  description: "Conference Chair"
+                                },
+                                {
+                                    id: 3,
+                                    image: "/products/office/chair12.png",
+                                    code: "ECI - 0004-20",
+                                    description: 'Conference Chair - Rectangular back-fabric cover - golden frame'
+                                },
+                                {
+                                    id: 594,
+                                    image: "/products/office/chair10.png",
+                                    code: "MS - 300012",
+                                    description: "Mata Plastic Chair"
                                 },
                                 {
                                   id: 1,
@@ -1076,33 +1238,38 @@ export const categories = [
                          {
                               id: 0,
                               image: "/products/school/school1.png",
-                              description: "School Desk with Metal Body & Frame Wooden Top"
+                              description: "School Desk with Metal Body & Frame Wooden Top",
+                              code: "DSC - 001"
                          },
                          {
                              id: 1,
                              image: "/products/school/school2.png",
-                             description: "School Desk with Wooden Body & Metal Frame"
+                             description: "School Desk with Wooden Body & Metal Frame",
+                             code: "DSC - 002"
                          },
                          {
                             id: 2,
                             image: "/products/school/school3.png",
-                            description: "School desk 3-Seater with divided Shelves"
+                            description: "School desk 3-Seater with divided Shelves",
+                            code: "DSC - 900A"
                          },
                          {
                             id: 3,
                             image: "/products/school/school4.png",
-                            description: "School desk 3-Seater with Courtesy Panel"
-                         },
-                         {
-                             id: 4,
-                             image: "/products/school/school5.png",
-                             description: "School desk 3-Seater with Shelf & Back Rest"
+                            description: "School desk 3-Seater with Courtesy Panel",
+                            code: "DSC - 004"
                          },
                          {
                               id: 5,
                               image: "/products/school/school6.png",
-                              description: "Seating Bench with Back Rest"
-                         }
+                              description: "Seating Bench with Back Rest",
+                              code: "TD - 211"
+                         },
+                         {
+                          id: 4,
+                          image: "/products/school/school5.png",
+                          description: "School desk 3-Seater with Shelf & Back Rest"
+                      },
                     ]
                },
                {
@@ -1113,42 +1280,50 @@ export const categories = [
                           {
                                id: 0,
                                image: "/products/school/chair1.png",
-                               description: "School Chairs"
+                               description: "School Chairs",
+                               code: "SC-013, SC-015, SC-017"
                           },
                           {
                                id: 1,
                                image: "/products/school/chair2.png",
-                               description: "Lecture chair with wooden seat & Back"
+                               description: "Lecture chair with wooden seat & Back",
+                               code: "SC - 021"
                           },
                           {
                               id: 2,
                               image: "/products/school/chair3.png",
-                              description: "Lecture Chair with Wooden seat & Black & Underneath basket"
+                              description: "Lecture Chair with Wooden seat & Black & Underneath basket",
+                              code: "SC - 022"
                           },
                           {
                               id: 3,
                               image: "/products/school/chair4.png",
-                              description: "Lecture Chair with (All Metal) with Underneath Basket"
+                              description: "Lecture Chair with (All Metal) with Underneath Basket",
+                              code: "SC - 024"
                           },
                           {
                               id: 4,
                               image: "/products/school/chair5.png",
-                              description: "Lecture Chair - Cushioned Seat & Back"
+                              description: "Lecture Chair - Cushioned Seat & Back",
+                              code: "UC - 063/4"
                           },
                           {
                               id: 5,
                               image: "/products/school/chair6.png",
-                              description: "Metal Folding Chair"
+                              description: "Metal Folding Chair",
+                              code: "UC - 081"
                           },
                           {
                               id: 6, 
                               image: '/products/school/chair7.png',
-                              description: "School Chairs Plywood Seat & Back"
+                              description: "School Chairs Plywood Seat & Back",
+                              code: "SC - 017"
                           },
                           {
                              id: 7,
                              image: "/products/school/chair8.png",
-                             description: "School Chairs All Metal"
+                             description: "School Chairs All Metal",
+                             code: "SC - 018"
                           }
                     ]
                },
@@ -1160,17 +1335,20 @@ export const categories = [
                       {
                            id: 0,
                            image: "/products/school/bed1.png",
-                           description: "Metal Single Bed"
+                           description: "Metal Single Bed",
+                           code: "MBS - 02/3"
                       },
                       {
                            id: 1,
                            image: "/products/school/bed2.png",
-                           description: "Metal Double Decker Bed"
+                           description: "Metal Double Decker Bed",
+                           code: "DB 041 - 4"
                       },
                       {
                           id: 2,
                           image: "/products/school/bed3.png",
-                          description: "Metal Tripple Decker Bed"
+                          description: "Metal Tripple Decker Bed",
+                          code: "MTB - 06/7"
                       },
                 ]
            },
@@ -1182,27 +1360,32 @@ export const categories = [
                   {
                        id: 0,
                        image: "/products/school/lib1.png",
-                       description: "Stack of 2, 5-Drawer Library Card Cabinet all Metal"
+                       description: "Stack of 2, 5-Drawer Library Card Cabinet all Metal",
+                       code: "MLC - 015"
                   },
                   {
                        id: 1,
                        image: "/products/school/lib2.png",
-                       description: "Reading Table with a Divider"
+                       description: "Reading Table with a Divider",
+                       code: "LT - 024"
                   },
                   {
                       id: 2,
                       image: "/products/school/lib3.png",
-                      description: 'Reading Table 4-Way: 60"x48"x29"'
+                      description: 'Reading Table 4-Way: 60"x48"x29"',
+                      code: "LT - 023"
                   },
                   {
                     id: 3,
                     image: "/products/school/lib4.png",
-                    description: "Standard Book Trolley"
+                    description: "Standard Book Trolley",
+                    code: "MLF 901 - 2"
                   },
                   {
                       id: 4,
                       image: "/products/school/lib5.png",
-                      description: 'Reading Carrel 36"x24"x29"'
+                      description: 'Reading Carrel 36"x24"x29"',
+                      code: "MLT - 101"
                   }
             ]
        },
@@ -1211,16 +1394,18 @@ export const categories = [
         name: "5. School Tables",
         note: "",
         products: [
+                {
+                   id: 1,
+                   image: "/products/school/table2.png",
+                   description: "Junior Trapezoidal Table",
+                   code: "TT - 022/3"
+              },
               {
                    id: 0,
                    image: "/products/school/table1.png",
                    description: "Metal Folding Table"
               },
-              {
-                   id: 1,
-                   image: "/products/school/table2.png",
-                   description: "Trapezoidal Table"
-              },
+        
               {
                   id: 2,
                   image: "/products/school/table3.png",
@@ -1248,88 +1433,105 @@ export const categories = [
                         {
                              id: 0,
                              image: "/products/hospital/hospital1.png",
-                             description: "Mobile Hospital Bed"
+                             description: "Mobile Hospital Bed",
+                             code: "MHB - 081"
                         },
                         {
                            id: 1,
                            image: "/products/hospital/hospital2.png",
-                           description: "Hospital Stretcher Trolley"
+                           description: "Hospital Stretcher Trolley",
+                           code: "MHF - 006"
                         },
                         {
                           id: 2,
                           image: '/products/hospital/hospital3.png',
-                          description: "Hospital step-stool & examination couch"
+                          description: "Hospital step-stool & examination couch",
+                          code: "MHF - 004 and UB - 088/9"
                         },
                         {
                           id: 3,
                           image: "/products/hospital/hospital4.png",
-                          description: "Bedside Locker with 2 drawer & 1 Shelf"
+                          description: "Bedside Locker with 2 drawer & 1 Shelf",
+                          code: "MHF - 019B"
                         },
                         {
                           id: 4,
                           image: "/products/hospital/hospital5.png",
-                          description: "Hospital Drip Stand 4 way"
+                          description: "Hospital Drip Stand 4 way",
+                          code: "MHF - 015"
                         },
                         {
                             id: 5,
                             image: "/products/hospital/hospital6.png",
-                            description: "14 Drawer Blood Slide Cabinet"
+                            // description: "14 Drawer Blood Slide Cabinet"
+                            description: "Tissue Block Cabinet",
+                            code: "MHF - 018"
                         },
                         {
                             id: 6,
                             image: "/products/hospital/hospital7.png",
-                            description: "7 Drawer card Filing Cabinet"
+                            description: "7 Drawer card Filing Cabinet",
+                            code: "MFC - 017"
                         },
                         {
                             id: 7,
                             image: "/products/hospital/hospital8.png",
-                            description: "Single Soiled Linen Trolley"
+                            description: "Single Soiled Linen Trolley",
+                            code: "MHF - 010"
                         },
                         {
                           id: 8,
                           image: "/products/hospital/hospital9.png",
-                          description: "Ward Dressing Trolley"
+                          description: "Ward Dressing Trolley",
+                          code: "MHF - 011"
                         },
                         {
                           id: 9,
                           image: "/products/hospital/hospital10.png",
-                          description: "Clean & Soiled Linen Trolley"
+                          description: "Clean & Soiled Linen Trolley",
+                          code: "MHF - 008"
                         },
                         {
                           id: 10,
                           image: "/products/hospital/hospital11.png",
-                          description: "Food Trolley with wooden trays"
+                          description: "Food Trolley with wooden trays",
+                          code: "MHF - 003C"
                         },
                         {
                           id: 11,
                           image: "/products/hospital/hospital12.png",
-                          description: "Trolley with 4 Metal Trays"
+                          description: "Trolley with 4 Metal Trays",
+                          code: "MHF - 003D"
                         },
                         {
                           id: 12,
                           image: "/products/hospital/hospital13.png",
-                          description: "Medicine Trolley"
+                          description: "Medicine Trolley",
+                          code: "MHF - 001"
                         },
                         {
                           id: 13,
                           image: "/products/hospital/hospital14.png",
-                          description: "Tissue Block storage Cabinets"
+                          description: "Blood slide Cabinets",
+                          code: "MHF - 017"
                         },
                         {
                           id: 14,
                           image: "/products/hospital/hospital15.png",
-                          description: "Bedside Locker"
+                          description: "Bedside Locker",
+                          code: "MHF - 019"
                         },
                         {
                           id: 15,
                           image: "/products/hospital/hospital16.png",
-                          description: "4 Fold hospital Screen"
+                          description: "4 Fold hospital Screen",
+                          code: "MHF - 016"
                         },
-                        {
-                          id: 16,
-                          image: '/products/hospital/hospital17.png',
-                          description: ""
-                        }
+                        // {
+                        //   id: 16,
+                        //   image: '/products/hospital/hospital17.png',
+                        //   description: ""
+                        // }
                  ]
             }
       ]
@@ -1351,27 +1553,32 @@ export const categories = [
                         {
                              id: 0,
                              image: "/products/bank/bank1.png",
-                             description: "Cash Carrying Box"
+                             description: "Cash Carrying Box",
+                             code: "MBC 008 - 14"
                         },
                         {
                             id: 1,
                             image: "/products/bank/bank2.png",
-                            description: 'Cash Box'
+                            description: 'Cash Box',
+                            code: "MBC 005 - 7"
                         },
                         {
                             id: 2,
                             image: '/products/bank/bank3.png',
-                            description: "Cashier Till"
+                            description: "Cashier Till",
+                            code: "MBF - 002"
                         },
                         {
                             id: 3,
                             image: '/products/bank/bank4.png',
                             description: "Cashier Till",
+                            code: "MBF - 001"
                         },
                         {
                             id: 4,
                             image: '/products/bank/bank5.png',
-                            description: "Queue Stands"
+                            description: "Queue Stands",
+                            code: "MIT - 011X"
                         }
                      ]
                 }
@@ -1395,54 +1602,63 @@ export const categories = [
                             {
                                  id: 0,
                                  image: "/products/clothing/clothing1.png",
-                                 description: "Single compartment Clothing locker"
+                                 description: "Single compartment Clothing locker",
+                                 code: "MLS - 100"
                             },
                             {
                                 id: 1,
                                 image: "/products/clothing/clothing2.png",
-                                description: "Double compartment clothing locker"
+                                description: "Double compartment clothing locker",
+                                code: "MLS - 200"
                             },
                             {
                                 id: 2,
                                 image: '/products/clothing/clothing3.png',
-                                description: "3 compartment clothing locker"
+                                description: "3 compartment clothing locker",
+                                code: "MLS - 300"
                             },
                             {
                                 id: 3,
                                 image: "/products/clothing/clothing4.png",
-                                description: "4 compartment clothing locker"
+                                description: "4 compartment clothing locker",
+                                code: "MLS - 400"
                             },
                             {
                                 id: 4,
                                 image: "/products/clothing/clothing5.png",
                                 description: "5 compartment clothing locker",
+                                code: "MLS - 500"
 
                             },
-                            {
-                                id: 5,
-                                image: "/products/clothing/clothing6.png",
-                                description: "Double compartment clothing locker with locks and vents"
-                            },
-                            {
-                                 id: 6,
-                                 image: "/products/clothing/clothing7.png",
-                                 description: "Single & Double locker (Bay of 2) with a Stand"
-                            },
+                            
                             {
                                 id: 7,
                                 image: "/products/clothing/clothing8.png",
-                                description: "Bay of 3, 2 Compartment clothing locker with locks & ventilation"
+                                description: "Bay of 3, 2 Compartment clothing locker with locks & ventilation",
+                                code: "MLS - 200C"
                             },
                             {
                                 id: 8,
                                 image: "/products/clothing/clothing9.png",
-                                description: "Bay of 3, 5 Compartment clothing locker with meshed doors"
+                                description: "Bay of 3, 5 Compartment clothing locker with meshed doors",
+                                code: "MLS - 990"
                             },
                             {
                                 id: 9,
                                 image: '/products/clothing/clothing10.png',
-                                description: "Bedside Locker"
-                            }
+                                description: "Bedside Locker",
+                                code: "MLB - B1"
+                            },
+                            {
+                              id: 5,
+                              image: "/products/clothing/clothing6.png",
+                              description: "Double compartment clothing locker with locks and vents"
+                          },
+                          {
+                               id: 6,
+                               image: "/products/clothing/clothing7.png",
+                               description: "Single & Double locker (Bay of 2) with a Stand"
+                          },
                      ]
                 }
         ]

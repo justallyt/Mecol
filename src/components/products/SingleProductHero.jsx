@@ -25,12 +25,12 @@ const SingleProductHero = () => {
                                                </ul>
                                     </div>
                                   
-                                    { category.subcategory.map(sub => 
+                                    {/* { category.subcategory.map(sub => 
                                                            
                                               <div className="subcategory-tab-wrapper" key={sub.id}>
                                                       
                                               </div>
-                                    )}
+                                    )} */}
                                      { category.subcategory.filter(f => f.name.slice(0,1) == activeTab).map(item => 
                                         <div className="subcategory-moja" key={item.id}>
                                                <h2>{item.name}</h2>
@@ -47,6 +47,7 @@ const SingleProductHero = () => {
                                                                                                           <div className="product-image">
                                                                                                                            <img src={pitem.image} alt="" />
                                                                                                           </div>
+                                                                                                          { pitem.code && <h3>{pitem.code}</h3>}
                                                                                                           <h4>{pitem.description}</h4>
                                                                                                 </div>
                                                                                            )}
@@ -61,7 +62,9 @@ const SingleProductHero = () => {
                                                                    <div className="product-image">
                                                                                <img src={pitem.image} alt="" />
                                                                    </div>
+                                                                   { pitem.code && <h3>{pitem.code}</h3>}
                                                                    <h4>{pitem.description}</h4>
+                                                                   
                                                            </div>
                                                      )}
                                                </div>

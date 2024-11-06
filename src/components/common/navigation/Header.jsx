@@ -8,6 +8,7 @@ import { CgMenuRightAlt } from "react-icons/cg";
 import { sidebarContext } from "./navcontext";
 const Header = () => {
   const [ dropdown, setDropdown] = useState(false);
+  // eslint-disable-next-line no-unused-vars
   const [sidebarStatus, setSidebarStatus] = useContext(sidebarContext);
   const { pathname } = useLocation();
 
