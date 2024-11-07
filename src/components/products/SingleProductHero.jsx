@@ -40,7 +40,7 @@ const SingleProductHero = () => {
                                                       <div className="distinct">
                                                                  {item.productsV2 && item.productsV2.length > 0 && item.productsV2.map(oitem=> 
                                                                         <div className="subcategory" key={oitem.id}>
-                                                                                   <h3>{oitem.subcategory}</h3>
+                                                                                   <h2>{oitem.subcategory}</h2>
                                                                                    <div className="subcategory-specifics">
                                                                                            { oitem.prods.map(pitem => 
                                                                                               <div className="product" key={pitem.id}>

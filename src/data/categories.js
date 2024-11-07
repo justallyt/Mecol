@@ -916,7 +916,17 @@ export const categories = [
                                  id: 4,
                                  subcategory: "High back and Low Back Chairs",
                                  prods: [
-
+                                     {
+                                       id: 1436,
+                                       image: "/products/office/chair35950.png",
+                                      description: "High Back Office Chair",
+                                      code: "EC - MHT7021"
+                                     },
+                                      {
+                                         id: 1436,
+                                        image: "/products/office/chair3048.png",
+                                        description: "High Back Office Chair"
+                                     },
                                        {
                                           id: 146,
                                           image: "/products/office/high-back.jpg",
@@ -1033,27 +1043,72 @@ export const categories = [
                                   id: 5,
                                   subcategory: "Visitors Chairs",
                                   prods: [
-                                 
+                                     {
+                                          id: 31,
+                                          image: '/products/office/chair3123.png',
+                                          description: "2 Seater link chair Padded seat & back",
+                                          code: "TD - AWC002"
+                                     },
+                                    {
+                                           id: 341,
+                                        image: '/products/office/chair3294.png',
+                                           description: "Heavy duty airport link chair with PU",
+                                           code: "TD - AWC - HD3PTH"
+                                         },
                                 {
                                   id: 31,
                                   image: '/products/office/chair32.png',
-                                  description: ""
+                                  description: "3 Seater link chair Padded seat & back",
+                                  code: "TD - AWC003"
                               },
                               {
                                   id: 32,
                                   image: '/products/office/chair33.png',
-                                  description: "Milano Sofa 1-Seater"
+                                  description: "Milano Sofa 1-Seater",
+                                  code: "MS - 300008"
                               },
                               {
                                   id: 33,
                                   image: '/products/office/chair34.png',
-                                  description: "Milano Sofa 3-Seater"
+                                  description: "Milano Sofa 3-Seater",
+                                  code: "MS - 300002"
                               },
                               {
                                   id: 34,
                                   image: '/products/office/chair35.png',
-                                  description: "Milano Sofa 2-Seater"
+                                  description: "Milano Sofa 2-Seater",
+                                  code: "MS - 300011"
                               },
+                              {
+                                id: 2034,
+                                image: "/products/office/chair6.png",
+                                description: "Visitor Office Chair",
+                                code: "UC - 021 / 2"
+                               },
+                               {
+                                id: 2134,
+                                image: "/products/office/chair7.png",
+                                description: "Visitors' chair - Stacking",
+                                code: "UC - 400"
+                               },
+                               {
+                                  id: 27,
+                                   image: '/products/office/chair28.png',
+                                   description: "Executive Medium Back Cantilever Chair",
+                                   code: "ECI - 9121 - 4"
+                               },
+                               {
+                                     id: 24534,
+                                     image: "/products/office/chair9.png",
+                                     description: "Visitor Office Chair - Wide",
+                                     code: "UC - 031/2"
+                                },
+                                 {
+                                     id: 3234,
+                                     image: "/products/office/chair4.png",
+                                     description: "Visitor Chair with plastic shell & Metal Frame",
+                                     code: "SC - 011"
+                                },
                               {
                                 id: 20,
                                 image: "/products/office/chair21.png",
@@ -1062,18 +1117,15 @@ export const categories = [
                             {
                               id: 2344,
                               image: "/products/office/mesh-cantilever.jpg",
-                              description: "Mesh Cantilever Chair"
+                              description: "Mesh Cantilever Chair",
+                              code: "MHT - 7021D"
                           },
                             {
                                 id: 22,
                                 image: "/products/office/chair23.png",
                                 description: "Executive High Back Cantilever chair"
                             },
-                            {
-                              id: 27,
-                              image: '/products/office/chair28.png',
-                              description: "Executive Medium Back Cantilever Chair"
-                          },
+                            
                                ]
                             },
                             {
@@ -1601,7 +1653,7 @@ export const categories = [
                      products: [
                             {
                                  id: 0,
-                                 image: "/products/clothing/clothing1.png",
+                                 image: "/products/clothing/clothing1v2.jpg",
                                  description: "Single compartment Clothing locker",
                                  code: "MLS - 100"
                             },

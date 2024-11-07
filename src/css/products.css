@@ -93,18 +93,20 @@ font-weight: 600;
         display: grid;
         grid-template-columns: repeat(3,1fr);
         gap: 40px;
-        margin-top: 30px;
+        margin: 20px 0;
 }
 .subcategory-moja{
-      margin-top: 40px;
+      margin: 40px 0;
       border-bottom: 1px solid rgba(174, 174, 174, 0.274);
       padding-bottom: 40px;
 }
 .subcategory-moja h2{
        margin-bottom: 10px;
-       font-size: 28px;
+       font-size: 25px;
        font-family: var(--font-bold);
        font-weight: 500;
+       padding-bottom: 10px;
+       border-bottom: 1px solid rgba(174, 174, 174, 0.274);
 }
 .subcategory-moja p{
        font-size: 20px;

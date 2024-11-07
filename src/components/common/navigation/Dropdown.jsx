@@ -25,7 +25,7 @@ const Dropdown = ({ status }) => {
                                       <h2>Shelving & Related Furniture</h2>
                                       <ul>
                                                <li><Link to={'/product-category/storage-and-racking-furniture'}>Racking <span><LuChevronRight /></span></Link></li>
-                                               <li><Link to={'/product-category/shelving-furniture'}>Storage Shelving<span><LuChevronRight /></span></Link></li>
+                                               <li><Link to={'/product-category/shelving-furniture'}>Shelving<span><LuChevronRight /></span></Link></li>
                                                <li><Link to={'/product-category/cabinets-and-cupboards'}>Cabinets & Cupboards <span><LuChevronRight /></span></Link></li>
                                     
                                     </ul>
