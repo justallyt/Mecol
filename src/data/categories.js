@@ -266,7 +266,7 @@ export const categories = [
                    products: [
                           {
                                id: 0,
-                               image: '/products/shelving/storage1.png',
+                               image: '/products/shelving/storage1v2.png',
                                description: "Storage shelving unit open type with braces",
                                code: "MSS - 001"
                           },
