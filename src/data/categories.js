@@ -11,6 +11,8 @@ export const categories = [
                   {
                        id: 0,
                        name: '1. Filing Cabinets',
+                       link: '/product-category/cabinets-and-cupboards/filing-cabinets',
+                       url_param: "filing-cabinets",
                        note: "All cabinets come with a lock (with two keys) that locks all drawers. Extra security can be fitted.",
                        products: [
                               {
@@ -36,6 +38,8 @@ export const categories = [
                   {
                     id: 1,
                     name: '2. Cupboards',
+                    link: '/product-category/cabinets-and-cupboards/cupboards',
+                    url_param: "cupboards",
                     note: "",
                     products: [
                            {
@@ -116,6 +120,8 @@ export const categories = [
                {
                 id: 2,
                 name: '3. Map Cabinets',
+                link: '/product-category/cabinets-and-cupboards/map-cabinets',
+                url_param: "map-cabinets",
                 note: "Takes 600 drawings. Has a lid and door lockable with single lock",
                 products: [
                        {
@@ -141,6 +147,8 @@ export const categories = [
             {
                 id: 3,
                 name: '4. Fireproof Safe & Cabinets',
+                link: "/product-category/cabinets-and-cupboards/fireproof-safe-and-cabinets",
+                url_param: "fireproof-safe-and-cabinets",
                 note: "",
                 products: [
                        {
@@ -159,6 +167,8 @@ export const categories = [
            {
                   id: 56,
                   name: "5. Pedestals",
+                  link: '/product-category/cabinets-and-cupboards/pedestals',
+                  url_param: "pedestals",
                   note: "",
                   products: [
                         {
@@ -191,6 +201,8 @@ export const categories = [
            {
             id: 4,
             name: '6. Other Cabinets',
+            link: "/product-category/cabinets-and-cupboards/other-cabinets",
+            url_param: "other-cabinets",
             note: "",
             products: [
                    {
@@ -252,16 +264,18 @@ export const categories = [
     },
     {
         id: 3,
-        title: "Shelving Furniture",
-        url_param: 'shelving-furniture',
+        title: "Shelving",
+        url_param: 'shelving',
         description: 'Under this category, we have mobile shelves/bulk filers, laboratory shelves, library shelves and so much more',
         image: '/shelving.jpg',
         icon: '/shelf.png',
-        link: '/product-category/shelving-furniture',
+        link: '/product-category/shelving',
         subcategory: [
                {
                    id: 0,
                    name: "1. Storage Shelving",
+                   link: "/product-category/shelving/storage-shelving",
+                   url_param: "storage-shelving",
                    note: "",
                    products: [
                           {
@@ -323,6 +337,8 @@ export const categories = [
                {
                    id: 1,
                    name: "2. Supermarket Shelving",
+                   link: "/product-category/shelving/supermarket-shelving",
+                   url_param: "supermarket-shelving",
                    note: "",
                    products: [
                           {
@@ -372,6 +388,8 @@ export const categories = [
                {
                    id: 2,
                    name: "3. Laboratory Shelving",
+                   link: "/product-category/shelving/laboratory-shelving",
+                   url_param: "laboratory-shelving",
                    note: "",
                    products: [
                           {
@@ -396,6 +414,8 @@ export const categories = [
                {
                 id: 3,
                 name: "4. Mobile Shelving",
+                link: "/product-category/shelving/mobile-shelving",
+                url_param: "mobile-shelving",
                 note: "",
                 products: [
                        {
@@ -422,6 +442,8 @@ export const categories = [
                 id: 4,
                 name: "5. Library Shelving",
                 note: "",
+                link: '/product-category/shelving/library-shelving',
+                url_param: "library-shelving",
                 products: [
                      {
                         id: 3,
@@ -493,17 +515,19 @@ export const categories = [
     },
     {
         id: 11,
-        title: "Racking Furniture",
+        title: "Racking",
         description: 'Under this category, we have medium duty and heavy duty racks.',
         image: '/racking.jpg',
         icon: '/office.png',
-        link: '/product-category/storage-and-racking-furniture',
-        url_param: "storage-and-racking-furniture",
+        link: '/product-category/racking',
+        url_param: "racking",
         subcategory: [
               {
                    id: 0,
                    name: "1. Heavy Duty Racks",
                    note: "",
+                   link: "/product-category/racking/heavy-duty-racks",
+                   url_param: "heavy-duty-racks",
                    products: [
                     {
                       id: 1,
@@ -534,6 +558,8 @@ export const categories = [
               {
                    id: 1,
                    name: "2. Medium Duty Racks",
+                   link: '/product-category/racking/medium-duty-racks',
+                   url_param: "medium-duty-racks",
                    note: "",
                    products: [
                          {
@@ -600,16 +626,18 @@ export const categories = [
     // },
      {
          id: 0,
-         title: "Office Furniture",
+         title: "Office",
          description: 'Under this category, we have office desks, workstations, computer tables, receiption counters, executive conference tables and so much more',
          image: '/products/office/workstation.webp',
          icon: '/office.png',
-         link: '/product-category/office-furniture',
-         url_param: "office-furniture",
+         link: '/product-category/office',
+         url_param: "office",
          subcategory: [
                  {
                       id: 0,
                       name: "1. Desks & Workstations",
+                     link: '/product-category/office/desks-and-workstations',
+                     url_param: "desks-and-workstations",
                       note: "",
                       products: [
                              {
@@ -675,7 +703,7 @@ export const categories = [
                                 description: "OfficeDesk- Beige"
                             },
                             {
-                                id: 7,
+                                id: 709,
                                 image: "/products/office/standard-office-desk.jpg",
                                 description: "Standard Office Desk- Walnut"
                             },
@@ -701,6 +729,8 @@ export const categories = [
                  {
                      id: 1,
                      name: "2. Tables",
+                     link: '/product-category/office/tables',
+                     url_param: "tables",
                      note: "",
                      productsV2: [
                                 {
@@ -827,17 +857,17 @@ export const categories = [
                                            description: "Oval Conference Table Set"
                                        },
                                        {
-                                        id: 7,
+                                        id: 987,
                                         image: '/products/office/conference-table2.jpg',
                                         description: '12 Seater Conference Table'
                                     },
                                     {
-                                      id: 7,
+                                      id: 789778,
                                       image: '/products/office/6-seater-conference.jpg',
                                       description: '6 Seater Conference Table'
                                   },
                                        {
-                                        id: 7,
+                                        id: 897,
                                         image: '/products/office/table8.png',
                                         description: ''
                                     },
@@ -872,6 +902,8 @@ export const categories = [
                  {
                       id: 2,
                       name: "3. Reception Counters",
+                      link: "/product-category/office/reception-counters",
+                      url_param: "reception-counters",
                       note: "",
                       products: [
                              {
@@ -910,6 +942,8 @@ export const categories = [
                  {
                      id: 3,
                      name: "4. Office Chairs",
+                     link: '/product-category/office/office-chairs',
+                     url_param: "office-chairs",
                      note: "",
                      productsV2: [
                             {
@@ -923,7 +957,7 @@ export const categories = [
                                       code: "EC - MHT7021"
                                      },
                                       {
-                                         id: 1436,
+                                         id: 143886,
                                         image: "/products/office/chair3048.png",
                                         description: "High Back Office Chair"
                                      },
@@ -1044,7 +1078,7 @@ export const categories = [
                                   subcategory: "Visitors Chairs",
                                   prods: [
                                      {
-                                          id: 31,
+                                          id: 390441,
                                           image: '/products/office/chair3123.png',
                                           description: "2 Seater link chair Padded seat & back",
                                           code: "TD - AWC002"
@@ -1139,7 +1173,7 @@ export const categories = [
                                     code: "UC - 011"
                                 },
                                 {
-                                    id: 1,
+                                    id: 8971,
                                     image: "/products/office/chair112.png",
                                     description: "Conference Chair",
                                     code: "ECI - DO55P Blue"
@@ -1163,12 +1197,12 @@ export const categories = [
                                     description: "Mata Plastic Chair"
                                 },
                                 {
-                                  id: 1,
+                                  id: 187977,
                                   image: "/products/office/chair2.png",
                                   description: "Conference Chair"
                                 },
                                 {
-                                  id: 2,
+                                  id: 2988,
                                   image: "/products/office/chair3.png",
                                   description: "Office/Conference Chair"
                                 },
@@ -1242,6 +1276,8 @@ export const categories = [
                  {
                      id: 434,
                      name: "5. Stools",
+                     link: '/product-category/office/stools',
+                     url_param: "stools",
                      note: "",
                      products: [
                           {
@@ -1275,16 +1311,18 @@ export const categories = [
      },
      {
         id: 108,
-        title: "School Furniture",
+        title: "School",
         description: 'Under this category, we have beds, desks, cabinets, trolleys and so much more',
         image: '/school-furniture2.jpg',
         icon: '/school.png',
-        link: '/product-category/school-furniture',
-        url_param: "school-furniture",
+        link: '/product-category/school',
+        url_param: "school",
         subcategory: [
                {
                     id: 0,
                     name: "1. School Desks & Tables",
+                    link: '/product-category/school/school-desks-and-tables',
+                    url_param: "school-desks-and-tables",
                     note: "",
                     products: [
                          {
@@ -1327,6 +1365,8 @@ export const categories = [
                {
                     id: 1,
                     name: "2. School Chairs",
+                    link: '/product-category/school/school-chairs',
+                    url_param: "school-chairs",
                     note: "",
                     products: [
                           {
@@ -1382,6 +1422,8 @@ export const categories = [
                {
                 id: 2,
                 name: "3. School Beds",
+                link: '/product-category/school/school-beds',
+                url_param: "school-beds",
                 note: "",
                 products: [
                       {
@@ -1406,8 +1448,10 @@ export const categories = [
            },
            {
             id: 2,
-            name: "4. Library Furniture",
+            name: "4. Library",
+            link:'/product-category/school/library',
             note: "",
+            url_param: "library",
             products: [
                   {
                        id: 0,
@@ -1444,6 +1488,8 @@ export const categories = [
        {
         id: 2,
         name: "5. School Tables",
+        link: '/product-category/school/school-tables',
+        url_param: 'school-tables',
         note: "",
         products: [
                 {
@@ -1470,12 +1516,12 @@ export const categories = [
     },
     {
       id: 298,
-      title: "Hospital Furniture",
+      title: "Hospital",
       description: "Under this category, we have mobile hospital beds, stretchers, drip stands, trolleys, hospital screens and so much more.",
       image: "/hospital-furniture2.jpg",
       icon: "",
-      link: "/product-category/hospital-furniture",
-      url_param: "hospital-furniture",
+      link: "/product-category/hospital",
+      url_param: "hospital",
       subcategory: [
             {
                  id: 0,
@@ -1590,12 +1636,12 @@ export const categories = [
  },
     {
         id: 287,
-        title: "Bank Furniture",
+        title: "Bank",
         description: 'Under this category, we have cashier tills, cash boxes, cash trays, atm cabinets, queue stands and so much more',
         image: '/banking-furniture.jpg',
         icon: '/hospital.png',
-        link: '/product-category/bank-furniture',
-        url_param: "bank-furniture",
+        link: '/product-category/bank',
+        url_param: "bank",
         subcategory: [
                 {
                      id: 0,
@@ -1768,4 +1814,110 @@ export const categories = [
                }
        ]
    }
+]
+
+
+
+export const top_categories = [
+      {
+          id: 0,
+           title: "Shelving",
+           image: "/categories/shelving.jpg",
+           link: "/product-category/shelving",
+           number: 43
+      },
+      {
+          id: 1,
+          title: "Office",
+          image: "/categories/office.png",
+          link: "/product-category/office/desks-and-workstations",
+          number: 94
+      },
+      {
+        id: 2,
+        title: "School",
+        image: "/categories/school.jpg",
+        link: "/product-category/school/school-desks-and-tables",
+        number: 25
+      },
+      {
+          id: 3,
+          title: "Racking",
+          image: "/categories/racking.jpg",
+          link: "/product-category/racking/heavy-duty-racks",
+          number: 8
+      },
+      {
+         id: 4,
+         title: "Cabinets & Cupboards",
+         image: "/categories/cabinetry.jpg",
+         link: "/product-category/cabinets-and-cupboards/filing-cabinets",
+         number:  32
+      },
+      {
+          id: 5,
+          title: "Bank",
+          image: '/categories/banking.jpg',
+          link: '/product-category/bank',
+          number: 5
+      },
+      {
+           id: 6,
+           title: "Hospital",
+           image: "/categories/hospital.jpg",
+           link: '/product-category/hospital',
+           number: 16
+      },
+      {
+           id: 7,
+           title: "Clothing Lockers",
+           image: '/categories/clothing.jpg',
+           link: '/product-category/clothing-lockers',
+           number: 7
+      }
+]
+
+export const popular_products = [
+    {
+         id: 0,
+         title: "Desks & Workstations",
+         link: "/product-category/office/desks-and-workstations",
+         image: "/popular/workstations.jpg"
+    },
+    {
+        id: 1,
+        title: "Office Chairs",
+        link: "/product-category/office/office-chairs",
+        image: "/popular/chairs.jpg",
+    },
+    {
+        id: 2,
+        title: "Filing Cabinets",
+        link: "/product-category/cabinets-and-cupboards/filing-cabinets",
+        image: "/popular/filing.jpg",
+    },
+    {
+        id: 3,
+        title: "Pedestals",
+        link: "/product-category/cabinets-and-cupboards/pedestals",
+        image: "/popular/pedestals.png"
+    },
+    {
+        id: 4,
+        title: "School Desks & Tables",
+        link: "/product-category/school/school-desks-and-tables",
+        image: "/popular/school.jpg",
+    },
+    {
+        id: 5,
+        title: "Storage Shelving",
+        link: "/product-category/shelving/storage-shelving",
+        image: "/popular/shelving.jpg"
+    },
+    {
+       id: 6,
+       title: "Mobile Shelving",
+       link: "/product-category/shelving/mobile-shelving",
+       image: "/popular/shelving2.png"
+    },
 ]

@@ -35,8 +35,8 @@ font-weight: 600;
 
 .products-body-content h2{
       font-family: var(--font-bold);
-      font-size: 30px;
-      font-weight: 500;
+      font-size: 60px;
+      font-weight: 600;
 }
 .products-body-row{
     display: grid;
@@ -46,7 +46,7 @@ font-weight: 600;
     column-gap: 20px;
 }
 .product-moja img{
-      max-height: 400px;
+      height: 380px;
       transition: all 0.8s ease;
       -webkit-transition: all 0.8s ease;
       -moz-transition: all 0.8s ease;
@@ -172,11 +172,21 @@ font-weight: 600;
       .single-hero-texts h1{
                font-size: 55px;
       }
+      .products-body-content h2,
+      .products-hero-texts h1{
+             font-size: 45px;
+      }
+
+      .products-body-row{
+             grid-template-columns: 1fr;
+      }
     
 }
 @media(max-width: 550px){
       .subcategory-specifics{
              grid-template-columns: 1fr;
       }
-
+       .products-body-content h2{
+              font-size: 35px;
+       }
 }
