@@ -1,7 +1,7 @@
 import {BsArrowLeft, BsArrowRight } from "react-icons/bs";
 import { top_categories } from "../../data/categories";
 import { useNavigate } from "react-router-dom";
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useEffect, useRef,} from "react";
 import PopularProducts from "./PopularProducts";
 const Categories2 = () => {
   const navigate = useNavigate();

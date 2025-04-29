@@ -1,8 +1,8 @@
-import chooseImg from "../../assets/chooseImg2.jpg"
+import chooseImg from "../../assets/delivery.jpg"
 import { reasons } from "../../data/reasons"
 import rawMaterial from "../../assets/artisanry.jpg"
 import workshop from "../../assets/workshop2.jpg"
-import carpenter from "../../assets/carpenter.jpeg"
+import carpenter from "../../assets/artisanry2.jpg"
 
 const Choose = () => {
   return (
