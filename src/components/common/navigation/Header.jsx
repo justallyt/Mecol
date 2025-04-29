@@ -41,7 +41,7 @@ const Header = () => {
                                                        </h3>
                                               </div>
                                               <div className="header-box">
-                                                         <Link to={'/'}>Request A Quote</Link>
+                                                         <Link to={'/contact'}>Request A Quote</Link>
                                               </div>
 
                                               <div className="menu-btn" onClick={openSidebar}>
