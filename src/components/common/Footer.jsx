@@ -47,10 +47,10 @@ const Footer = () => {
                                       <p>All rights reserved &copy; {new Date().getFullYear()} <span>MECOL</span> Limited.</p>
                                       <div className="footer-social-links">
                                                 <ul>
-                                                         <li><Link to={'/'}><span><FaFacebookF /></span></Link></li>
-                                                         <li><Link to={'/'}><span><FaXTwitter /></span></Link></li>
-                                                         <li><Link to={'/'}><span><FaInstagram /></span></Link></li>
-                                                         <li><Link to={'/'}><span><FaTiktok /></span></Link></li>
+                                                         <li><Link target="_blank" to={'https://web.facebook.com/p/Mecol-Limited-61556386653786/?_rdc=1&_rdr#'}><span><FaFacebookF /></span></Link></li>
+                                                         <li><Link to={'https://x.com/mecolkenya'} target="_blank"><span><FaXTwitter /></span></Link></li>
+                                                         <li><Link to={'https://www.instagram.com/mecollimited/'} target="_blank"><span><FaInstagram /></span></Link></li>
+                                                         {/* <li><Link to={'/'}><span><FaTiktok /></span></Link></li> */}
                                                 </ul>
                                       </div>
                            </div>

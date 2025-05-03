@@ -20,9 +20,12 @@ const AboutBody = () => {
                                                           </div>
                                              </div>
                                              <div className="about-body-description">
-                                                         <p>Mecol was incorporated in 1958 and has been producing a wide variety of quality furniture in the corporate, health, institutional and recreation sector. We believe that it pays off to invest in top quality. Products made from first class materials and with precise craftmanship not only last longer, but are a delight to the eye when you come into contact with them every day. We believe that even children will recognize and appreciate good quality and style. And that when they grow up sorrounded by such things, they will continue to do so throughout their adult lives.</p>
+                                                         <p>Established in 1958, Mecol has built a legacy of crafting high-quality furniture for the corporate, healthcare, institutional, and retail sectors.
+We believe that investing in top-tier quality always pays off. Our products, made from premium materials and with meticulous craftsmanship, are not only built to last but also offer daily visual and tactile satisfaction. 
+</p>
 
-                                                         <p>Aside from dominating the local market, Mecol products are also exported to companies in the COMESA and the East African community. As a team of professional furnitue experts, we understand the field, and once you place your order, we do not leave you in the dark. We purposely keep you informed about the progress of your order at all times. As soon as we receive the ordered goods, we turn and check each item numerous times to make sure that only those items that are in perfect condition are shipped to you.</p>
+                                                         <p>While we lead the local market, Mecol also proudly exports to companies across the COMESA region and the East African Community.
+                                                         As a team of dedicated furniture professionals, we understand the importance of clear communication. From the moment you place your order, we keep you updated throughout the process. Every item is thoroughly inspected upon arrival and rechecked multiple times to ensure only pieces in perfect condition are delivered to you.</p>
                                              </div>
                               </div>
                 </div>

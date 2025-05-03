@@ -16,7 +16,7 @@ const About = () => {
          <AboutBody />
          <AboutStatements />
          <Choose />
-         <GallerySection />
+         {/* <GallerySection /> */}
          <Nudge />
          <Footer />
     </>

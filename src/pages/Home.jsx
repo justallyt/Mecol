@@ -19,7 +19,7 @@ const Home = () => {
           <AboutSection />
            <Categories2 />
            <Choose />
-           <GallerySection />
+           {/* <GallerySection /> */}
            <Nudge />
            <Footer />
     </>

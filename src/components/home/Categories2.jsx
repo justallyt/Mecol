@@ -58,7 +58,7 @@ const Categories2 = () => {
                 <div className="categories-body-intro">
                           <div className="categories-body-column">
                                      <h2>Discover By Category</h2>
-                                     <p>We&apos;ve got an incredible selection of furniture designed to match your unique style and fit perfectly into your space. Whether you&apos;re looking for something sleek and modern or cozy and classic, we have the perfect pieces to bring your vision to life.</p>
+                                     <p>View our incredible selection of furniture designed to match your unique style and fit perfectly into your space. Whether you&apos;re looking for something sleek and modern or cozy and classic, we have the perfect pieces to bring your vision to life.</p>
                           </div>
                           <div className="categories-shifts">
                                       <div ref={shiftRef} className="shift-box">

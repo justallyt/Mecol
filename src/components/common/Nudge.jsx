@@ -6,9 +6,9 @@ const Nudge = () => {
     <div className="nudge-section">
                 <div className="inner-row">
                            <div className="nudge-section-content">
-                                     <h1>Do you need Furniture Supplies?</h1>
-                                     <p>Discover our full range of furniture products for all vast industries we serve.</p>
-                                     <Link to={'/contact'} className="btn-v2">Let&apos;s Talk <span><GoArrowUpRight /></span></Link>
+                                     <h1>Need Furniture Supplies Tailored to Your Needs? </h1>
+                                     <p>We offer a comprehensive range of furniture for diverse industries. For bespoke solutions, reach out to request a custom quote today.</p>
+                                     <Link to={'/contact'} className="btn-v2">Request Quotation <span><GoArrowUpRight /></span></Link>
                            </div>
                 </div>
     </div>

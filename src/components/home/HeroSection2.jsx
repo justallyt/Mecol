@@ -16,8 +16,8 @@ const HeroSection2 = () => {
                                       <div className="hero-title">
                                                   <h1>Durable, Purpose-Driven Furniture for <span>Institutional</span> and <span>Industrial</span> Spaces.</h1>
                                                   <div className="hero-title-texts">
-                                                             <p>We blend precision-engineered steel with the natural warmth of wood—built to endure, designed to inspire, and trusted by institutions that demand uncompromising quality in both function and form.</p>
-                                                             <Link to={"/products"}>Explore More <span><HiOutlineArrowUpRight /></span></Link>
+                                                             <p>We blend precision-engineered steel with the natural warmth of wood—built to endure, designed to inspire, and trusted by institutions and industries that demand uncompromising quality in both function and form.</p>
+                                                             <Link to={"/products"}>View Products<span><HiOutlineArrowUpRight /></span></Link>
                                                   </div>
                                       </div>
 

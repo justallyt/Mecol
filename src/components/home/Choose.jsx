@@ -1,8 +1,8 @@
 import chooseImg from "../../assets/delivery.jpg"
 import { reasons } from "../../data/reasons"
-import rawMaterial from "../../assets/artisanry.jpg"
-import workshop from "../../assets/workshop2.jpg"
-import carpenter from "../../assets/artisanry2.jpg"
+// import rawMaterial from "../../assets/artisanry.jpg"
+// import workshop from "../../assets/workshop2.jpg"
+// import carpenter from "../../assets/artisanry2.jpg"
 
 const Choose = () => {
   return (
@@ -28,7 +28,7 @@ const Choose = () => {
                                                 )}
                                      </div>
 
-                                    <div className="quality-row">
+                                    {/* <div className="quality-row">
                                                 <div className="quality-row-column">
                                                             <h2>We Use Premium Quality Materials</h2>
                                                             <div className="quality-description">
@@ -46,7 +46,7 @@ const Choose = () => {
                                                                      <img src={carpenter} alt="" />
                                                             </div>
                                                 </div>
-                                    </div>
+                                    </div> */}
 
                         </div>
              </div>

@@ -695,10 +695,14 @@
 }
 .nudge-section-content p{
        font-size: 20px;
+       width: 80%;
+       margin: auto;
+       line-height: 1.5;
 }
 .nudge-section-content .btn-v2{
        margin:20px auto;
-       width: 200px
+       width: 240px;
+       height: 50px;
 }
 
 
